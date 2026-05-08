@@ -1,5 +1,5 @@
 ---
-title: Fiches produits
+title: "Fiches produits"
 ---
 # Fiches produits
 

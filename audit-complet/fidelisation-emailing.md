@@ -1,5 +1,5 @@
 ---
-title: Fidélisation & E-mailing (Marketing Automation)
+title: "Fidélisation & E-mailing (Marketing Automation)"
 ---
 # Stratégie d'E-mailing & Relance
 

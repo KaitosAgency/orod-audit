@@ -1,6 +1,9 @@
+﻿---
+title: "Anomalies Techniques Critiques"
 ---
-title: Anomalies Techniques Critiques
----
+
+Cette section détaille les problèmes techniques bloquants qui empêchent ou limitent la bonne indexation du site par les moteurs de recherche.
+
 # Fichier Robots.txt
 
 **Constat :** Le fichier est vide. Il ne donne aucune instruction aux moteurs de recherche.\

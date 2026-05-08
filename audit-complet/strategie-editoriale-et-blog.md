@@ -1,5 +1,5 @@
 ---
-title: Stratégie Éditoriale & Blog (Le Tunnel de Vente)
+title: "Stratégie Éditoriale & Blog (Le Tunnel de Vente)"
 ---
 **Constat :** Le blog n'est pas qu'un espace d'actualités. C'est le moteur d'acquisition "Haut de Tunnel" (Top of Funnel), le lieu où Google évalue votre **Expertise (E-E-A-T)**, et la source principale utilisée par les Intelligences Artificielles (GEO) pour formuler leurs recommandations.
 

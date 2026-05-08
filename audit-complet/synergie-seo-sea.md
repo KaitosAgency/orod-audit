@@ -1,5 +1,5 @@
 ---
-title: Synergie SEO / SEA (L'Acquisition Hybride)
+title: "Synergie SEO / SEA (L'Acquisition Hybride)"
 ---
 En B2B et e-commerce, opposer le SEO (naturel) et le SEA (Google Ads) est une erreur. Les deux canaux doivent se nourrir mutuellement pour maximiser le Chiffre d'Affaires. Bien que cet audit soit concentré sur le SEO, le trafic payant est un accélérateur indispensable.
 

@@ -1,5 +1,5 @@
 ---
-title: L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)
+title: "L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)"
 ---
 **Constat :** En 2026, une part grandissante des utilisateurs (notamment en B2B) utilise des intelligences artificielles (ChatGPT, Claude, Perplexity, Google Gemini) pour rechercher des fournisseurs, comparer des produits ou demander des recommandations. Optimiser un site pour ces IA s'appelle le **GEO**.
 

@@ -1,5 +1,5 @@
 ---
-title: Méthodologie de Déploiement & Automatisation (Serveur MCP)
+title: "Méthodologie de Déploiement & Automatisation (Serveur MCP)"
 ---
 L'application des recommandations de cet audit (rédaction de centaines de textes SEO, modification des métadonnées, animation commerciale) représente un volume de travail colossal si elle est traitée manuellement.
 

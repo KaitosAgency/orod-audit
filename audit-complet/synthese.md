@@ -1,5 +1,5 @@
 ---
-title: Synthèse
+title: "Synthèse"
 ---
 # Executive Summary (Synthèse Décideur)
 

@@ -1,5 +1,5 @@
 ---
-title: Optimisation de la Page d'Accueil (SEO & CRO)
+title: "Optimisation de la Page d'Accueil (SEO & CRO)"
 ---
 ﻿# Page d'accueil
 

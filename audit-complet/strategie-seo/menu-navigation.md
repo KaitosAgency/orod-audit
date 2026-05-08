@@ -1,5 +1,5 @@
 ---
-title: Menu & Navigation
+title: "Menu & Navigation"
 ---
 # Menu & Navigation (Arborescence)
 

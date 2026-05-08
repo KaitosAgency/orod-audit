@@ -1,5 +1,5 @@
 ---
-title: SEO Programmatique (pSEO) : Conquête Locale Longue Traîne
+title: "SEO Programmatique (pSEO) : Conquête Locale Longue Traîne"
 ---
 Le SEO Programmatique est une stratégie d'acquisition massive particulièrement redoutable en B2B/B2G. L'objectif est de générer automatiquement des centaines de pages d'atterrissage (Landing Pages) ciblant des requêtes locales très spécifiques (ex: "Fournisseur uniforme police municipale Lyon", "Acheter gilet pare-balles Marseille").
 

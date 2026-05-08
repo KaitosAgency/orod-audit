@@ -1,5 +1,5 @@
 ---
-title: Éléments Transverses & Autorité
+title: "Éléments Transverses & Autorité"
 ---
 # Le Footer (Maillage Interne & E-E-A-T)
 

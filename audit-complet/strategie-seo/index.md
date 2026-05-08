@@ -1,5 +1,5 @@
 ---
-title: Stratégie SEO
+title: "Stratégie SEO"
 ---
 # Stratégie SEO
 
