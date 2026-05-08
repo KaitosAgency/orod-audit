@@ -1,4 +1,4 @@
-﻿---
+---
 title: Optimisation de la Page d'Accueil (SEO & CRO)
 ---
 
@@ -38,7 +38,8 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Hero Banner & Animation Commerciale (Calendrier Marketing)
 
-**Constat :** Le "Hero Banner" (le grand visuel en haut de la page d'accueil) est la zone la plus visible du site. Actuellement, il ne semble pas exploité à son plein potentiel pour l'animation commerciale.\
+**Constat :** Le "Hero Banner" (le grand visuel en haut de la page d'accueil) est la zone la plus visible du site. Actuellement, il ne semble pas exploité à son plein potentiel pour l'animation commerciale.
+
 **Recommandation :**
 
 * **Promotions et Nouveautés :** Utiliser cet espace prioritairement pour mettre en avant les nouveautés produits et les offres promotionnelles en cours. Même dans une niche B2B/Institutionnelle, l'animation commerciale reste un levier de conversion majeur.
@@ -48,7 +49,8 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Preuve Sociale & Réassurance
 
-**Constat :** Le site manque d'éléments de réassurance visibles sur la page d'accueil (avis clients, logos de partenaires, certifications, contact direct).\
+**Constat :** Le site manque d'éléments de réassurance visibles sur la page d'accueil (avis clients, logos de partenaires, certifications, contact direct).
+
 **Recommandation :**
 
 * **Logos Partenaires :** Ajouter un bandeau de logos des institutions ou collectivités qui font déjà confiance à OROD.
@@ -58,7 +60,8 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Capture de Leads (Pop-up & Widget)
 
-**Constat :** La page d'accueil propose une simple ligne "Newsletter" en bas de page, ce qui génère un taux d'inscription très faible.\
+**Constat :** La page d'accueil propose une simple ligne "Newsletter" en bas de page, ce qui génère un taux d'inscription très faible.
+
 **Recommandation :**
 
 * **Pop-up au scroll ou à l'intention de sortie (Exit Intent) :** Déclencher une fenêtre pop-up proposant un avantage immédiat (ex: "10% de remise sur votre première commande" ou "Frais de port offerts") en échange de l'adresse e-mail.
@@ -67,7 +70,10 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Affichage des Produits (Grilles & Survol)
 
-**Constat 1 : Le nom de la marque.** Sous chaque titre de produit, le nom de la marque (ex: OROD, DMB) est affiché. Bien que pertinent dans un catalogue multi-marques, son affichage actuel manque de hiérarchie visuelle et ressemble à du texte brut.\
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**Constat 1 : Le nom de la marque.** Sous chaque titre de produit, le nom de la marque (ex: OROD, DMB) est affiché. Bien que pertinent dans un catalogue multi-marques, son affichage actuel manque de hiérarchie visuelle et ressemble à du texte brut.
+
 **Constat 2 : L'effet de survol (Hover) cassé.** Au repos, les vignettes produits sont bien carrées (ratio natif des images). Cependant, au survol de la souris sur une carte produit (page d'accueil ou catégorie), une seconde image s'affiche. Si cette seconde image est rectangulaire (horizontale ou verticale), elle "casse" la grille carrée, donnant un aspect non fini au site et déformant potentiellement l'image si elle est étirée.
 
 **Recommandations :**
@@ -75,7 +81,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 * **Pour le nom de la marque (SEO & UX) :** Améliorer la hiérarchie visuelle en plaçant la marque **au-dessus** du titre, sous forme de **badge cliquable** (ex: texte gris clair en majuscules). Ce lien redirigerait vers une page dédiée à la marque regroupant tous ses articles.
   * _Bénéfice SEO :_ Création de nouvelles pages d'atterrissage (Silos de marques) captant les requêtes spécifiques des utilisateurs qui cherchent un fabricant précis (ex: "Équipement DMB").
   * _Bénéfice CRO :_ Navigation facilitée pour les professionnels fidèles à une marque.
-* **Affichage de la Catégorie (Maillage & Rétention) :** Ajouter le nom de la catégorie parente (ex: "Polos & T-shirts") sur la carte produit, idéalement sous forme de lien cliquable, juste à côté ou en dessous de la marque.
+* **Affichage de la Catégorie (Maillage & Rétention) :** Ajouter le nom de la catégorie parente (ex: "Polos & T-shirts") sur la carte produit, idéalement sous forme de lien cliquable, en dessous du titre ou tout en haut de la carte (choix UX).
   * _Bénéfice SEO :_ Renforce massivement le maillage interne (liens) vers les pages catégories stratégiques et enrichit le champ lexical de la page d'accueil avec des mots-clés pertinents.
   * _Bénéfice CRO :_ Si le produit affiché ne plaît pas totalement, l'utilisateur peut facilement cliquer sur la catégorie pour voir les alternatives, le maintenant ainsi dans le tunnel d'achat (réduction du taux de rebond).
 * **Pour le bug de l'image au survol :**
