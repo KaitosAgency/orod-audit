@@ -1,14 +1,10 @@
-﻿# Stratégie Éditoriale & Blog (Le Tunnel de Vente)
-
-## 4. Stratégie Éditoriale & Blog (Le Tunnel de Vente)
-
 **Constat :** Le blog n'est pas qu'un espace d'actualités. C'est le moteur d'acquisition "Haut de Tunnel" (Top of Funnel), le lieu où Google évalue votre **Expertise (E-E-A-T)**, et la source principale utilisée par les Intelligences Artificielles (GEO) pour formuler leurs recommandations.
 
 **⚠️ Alerte Architecture (Shopinvader & Blog) :** La solution e-commerce actuelle (Odoo + Shopinvader) est ultra-performante pour le catalogue, mais elle ne possède pas de module "Blog" natif. Pour déployer la stratégie ci-dessous sans alourdir l'ERP, il faudra opter pour une architecture "Composée" (ex: connecter le frontend Nuxt.js à un CMS Headless externe comme Strapi, Storyblok, ou un WordPress Headless). Le choix de ce CMS devra impérativement supporter une connexion API/MCP pour permettre l'automatisation de la rédaction par l'IA.
 
 Pour transformer le blog en machine à trafic et à conversion, voici l'architecture complète à implémenter :
 
-### 4.1. Les Pages Catégories du Blog (Le Hub Informationnel)
+# 4.1. Les Pages Catégories du Blog (Le Hub Informationnel)
 
 Ces pages listent les articles par thématique. Elles agissent comme des "Silos Informationnels" qui viennent nourrir les "Silos E-commerce".
 
@@ -26,7 +22,7 @@ Ces pages listent les articles par thématique. Elles agissent comme des "Silos 
   * _⚠️ Faut-il mettre des étoiles (Avis) ?_ **NON.** Les guidelines de Google interdisent formellement d'utiliser `AggregateRating` sur une page qui se contente de lister des articles de blog. Les étoiles sont réservées aux fiches produits, aux articles individuels (vote du lecteur), ou aux **catégories de produits** (où l'on agrège les notes des produits vendus). Le faire sur une catégorie de blog serait considéré comme du spam de données structurées.
 * **Maillage Interne :** En haut ou sur le côté de la page, faire un lien direct vers la page "Boutique" correspondante (ex: "Voir notre catalogue de vente Police Municipale") pour créer le pont entre informationnel et transactionnel.
 
-### 4.2. Les Pages Articles de Blog (La structure parfaite)
+# 4.2. Les Pages Articles de Blog (La structure parfaite)
 
 Il existe deux grands types d'articles à produire, chacun avec un objectif précis.
 
@@ -75,4 +71,3 @@ Il existe deux grands types d'articles à produire, chacun avec un objectif pré
   * _Balisage JSON-LD `Person` (Avancé) :_ Dans le schéma de l'article, la propriété `author` doit pointer vers cette page auteur. Sur la page auteur elle-même, utilisez la propriété `sameAs` pour lier le profil LinkedIn réel de l'auteur, renforçant ainsi la preuve de son existence et de son expertise aux yeux de l'algorithme.
   * _Boîte Auteur Visuelle :_ Ajouter un encart visuel en bas de chaque article avec la photo (réelle) de l'auteur, un résumé de son expertise, et un lien vers sa page dédiée.
   * _Le système de notation (`AggregateRating`) :_ Installer un module de vote en bas d'article : _"Cet article vous a-t-il été utile ? \[ 5 étoiles cliquables ]"_. Avec un seul vote d'amorçage, la donnée structurée est valide et les étoiles apparaîtront dans la SERP, augmentant massivement le taux de clic (CTR), sans risquer la pénalité des "faux avis globaux".
-
