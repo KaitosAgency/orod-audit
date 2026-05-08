@@ -1,3 +1,6 @@
+---
+title: SEO Programmatique (pSEO) : Conquête Locale Longue Traîne
+---
 Le SEO Programmatique est une stratégie d'acquisition massive particulièrement redoutable en B2B/B2G. L'objectif est de générer automatiquement des centaines de pages d'atterrissage (Landing Pages) ciblant des requêtes locales très spécifiques (ex: "Fournisseur uniforme police municipale Lyon", "Acheter gilet pare-balles Marseille").
 
 Même si OROD est un e-commerce national sans boutique physique dans chaque ville, les acheteurs institutionnels (Mairies, Chefs de poste) intègrent très souvent leur localité dans leurs recherches pour trouver un partenaire de proximité ou s'assurer de la capacité de livraison sur leur secteur.

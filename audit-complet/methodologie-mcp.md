@@ -1,3 +1,6 @@
+---
+title: Méthodologie de Déploiement & Automatisation (Serveur MCP)
+---
 L'application des recommandations de cet audit (rédaction de centaines de textes SEO, modification des métadonnées, animation commerciale) représente un volume de travail colossal si elle est traitée manuellement.
 
 Pour garantir un déploiement rapide, exhaustif et sans erreur sur l'ensemble du catalogue OROD, je mets en place une infrastructure technique sur-mesure basée sur le **Model Context Protocol (MCP)** et l'API de votre environnement **Odoo Shop Invaders**.

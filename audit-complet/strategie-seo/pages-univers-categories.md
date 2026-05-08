@@ -1,3 +1,6 @@
+---
+title: Pages Univers & Catégories
+---
 # Pages Univers & Catégories
 
 ## Optimisation des Métadonnées (Title, Description, JSON-LD)

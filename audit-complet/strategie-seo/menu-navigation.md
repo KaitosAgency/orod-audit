@@ -1,3 +1,6 @@
+---
+title: Menu & Navigation
+---
 # Menu & Navigation (Arborescence)
 
 ## Sémantique et Données Structurées du Menu

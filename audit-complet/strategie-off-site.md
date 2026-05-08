@@ -1,3 +1,6 @@
+---
+title: Stratégie Off-Site & Netlinking (Construire l'Autorité)
+---
 L'optimisation technique et le contenu (On-Site) ne suffisent pas toujours dans des niches concurrentielles. Google a besoin de preuves de confiance externes : les **Backlinks** (liens pointant vers votre site). C'est ce qui fait monter votre **DR (Domain Rating)** et donne la puissance nécessaire pour faire ranker vos pages catégories, vos fiches produits et vos articles de blog.
 
 # La Triangulation Sémantique (Le "Hack" du Groupe Abilis)

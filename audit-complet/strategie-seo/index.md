@@ -1,3 +1,6 @@
+---
+title: Stratégie SEO
+---
 # Stratégie SEO
 
 Cette section détaille l'ensemble des optimisations nécessaires pour maximiser la visibilité organique d'OROD.

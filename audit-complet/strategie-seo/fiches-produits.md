@@ -1,3 +1,6 @@
+---
+title: Fiches produits
+---
 # Fiches produits
 
 ## Optimisation des Métadonnées (Title, URL, Canonique)

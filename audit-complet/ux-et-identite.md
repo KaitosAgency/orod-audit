@@ -1,3 +1,6 @@
+---
+title: Expérience Utilisateur (UX) & Identité
+---
 {% hint style="info" %}
 💡 **Note SEO 2026 :** Face à l'avalanche de contenus générés par IA, Google utilise désormais l'UX (temps passé, clics, navigation fluide) comme un critère SEO majeur pour différencier les sites d'autorité des sites "spam". Optimiser l'UX d'OROD n'est donc plus seulement une question de conversion, c'est vital pour le référencement.
 {% endhint %}

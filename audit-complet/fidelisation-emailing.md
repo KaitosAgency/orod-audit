@@ -1,3 +1,6 @@
+---
+title: Fidélisation & E-mailing (Marketing Automation)
+---
 # Stratégie d'E-mailing & Relance
 
 **Constat :** Le site propose une inscription à la newsletter, mais la stratégie de "Marketing Automation" (scénarios automatisés) reste à auditer côté back-office.\

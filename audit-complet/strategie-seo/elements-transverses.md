@@ -1,3 +1,6 @@
+---
+title: Éléments Transverses & Autorité
+---
 # Le Footer (Maillage Interne & E-E-A-T)
 
 **Constat :** Actuellement, le footer (pied de page) est sous-exploité. Il contient principalement des liens légaux, un accès au compte client très basique, et un lien direct vers un catalogue PDF. Il manque cruellement de liens stratégiques pour le SEO (pSEO, Blog) et d'éléments de réassurance.\

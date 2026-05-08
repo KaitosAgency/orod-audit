@@ -1,3 +1,6 @@
+---
+title: Synthèse
+---
 # Executive Summary (Synthèse Décideur)
 
 **L'enjeu :** OROD dispose d'un catalogue produit robuste et d'une infrastructure e-commerce performante (Odoo Shop Invaders). Cependant, le site souffre de lacunes techniques et éditoriales qui brident sa visibilité sur Google et l'empêchent de capter la demande institutionnelle (B2B/B2G) à grande échelle.

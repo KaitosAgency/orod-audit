@@ -1,3 +1,6 @@
+---
+title: Stratégie Éditoriale & Blog (Le Tunnel de Vente)
+---
 **Constat :** Le blog n'est pas qu'un espace d'actualités. C'est le moteur d'acquisition "Haut de Tunnel" (Top of Funnel), le lieu où Google évalue votre **Expertise (E-E-A-T)**, et la source principale utilisée par les Intelligences Artificielles (GEO) pour formuler leurs recommandations.
 
 **⚠️ Alerte Architecture (Shopinvader & Blog) :** La solution e-commerce actuelle (Odoo + Shopinvader) est ultra-performante pour le catalogue, mais elle ne possède pas de module "Blog" natif. Pour déployer la stratégie ci-dessous sans alourdir l'ERP, il faudra opter pour une architecture "Composée" (ex: connecter le frontend Nuxt.js à un CMS Headless externe comme Strapi, Storyblok, ou un WordPress Headless). Le choix de ce CMS devra impérativement supporter une connexion API/MCP pour permettre l'automatisation de la rédaction par l'IA.

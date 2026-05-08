@@ -1,3 +1,6 @@
+---
+title: Optimisation de la Page d'Accueil (SEO & CRO)
+---
 ﻿# Page d'accueil
 
 ## Hiérarchie des titres (H1, H2, H3)
