@@ -2,7 +2,7 @@
 
 * [Description](README.md)
 
-## audit-complet
+## Audit Complet
 
 * [Synthèse](audit-complet/synthese.md)
 * [Expérience Utilisateur (UX) & Identité](audit-complet/ux-et-identite.md)
