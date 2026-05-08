@@ -1,4 +1,4 @@
-# 2.1 Fichier Robots.txt
+# Fichier Robots.txt
 
 **Constat :** Le fichier est vide. Il ne donne aucune instruction aux moteurs de recherche.\
 **Proposition de contenu pour `https://orod.fr/robots.txt` :**

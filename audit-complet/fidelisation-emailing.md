@@ -1,4 +1,4 @@
-# 📧 Stratégie d'E-mailing & Relance
+# Stratégie d'E-mailing & Relance
 
 **Constat :** Le site propose une inscription à la newsletter, mais la stratégie de "Marketing Automation" (scénarios automatisés) reste à auditer côté back-office.\
 **Recommandations à vérifier/implémenter :**
@@ -9,7 +9,7 @@
 * **Relance de paniers abandonnés :** S'assurer qu'un scénario automatique est en place pour relancer par e-mail les utilisateurs connectés ayant laissé des articles dans leur panier (J+1, J+3). C'est un levier de conversion majeur en e-commerce.
 * **Séquence de bienvenue (Onboarding) :** Lors de l'inscription à la newsletter ou de la création d'un compte, envoyer une série de 2 ou 3 e-mails présentant l'expertise d'OROD, les engagements qualité et les univers phares.
 
-# ⭐ Récolte des Avis Clients (Social Proof)
+# Récolte des Avis Clients (Social Proof)
 
 **Constat :** Les avis clients sont un critère fondamental pour la réassurance (taux de conversion) et pour le SEO (affichage des étoiles dans Google via les données structurées `AggregateRating`).\
 **Recommandations :**

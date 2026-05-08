@@ -5,7 +5,6 @@
 # Agencement du Header & Menu Principal
 
 **Constat :** L'agencement actuel du header peut être optimisé pour mettre en valeur les éléments qui convertissent le plus. De plus, l'entrée de menu "Explorez" occupe une place de choix sans apporter de forte valeur ajoutée transactionnelle.\
-\
 **Recommandations :**
 
 * **Barre de recherche & Logo :** Réduire légèrement la taille ou l'espacement des boutons utilitaires (Panier, Compte) afin d'élargir la barre de recherche (élément de conversion central en e-commerce) et de donner plus de respiration au logo.

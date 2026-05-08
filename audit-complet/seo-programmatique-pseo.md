@@ -2,11 +2,11 @@ Le SEO Programmatique est une stratégie d'acquisition massive particulièrement
 
 Même si OROD est un e-commerce national sans boutique physique dans chaque ville, les acheteurs institutionnels (Mairies, Chefs de poste) intègrent très souvent leur localité dans leurs recherches pour trouver un partenaire de proximité ou s'assurer de la capacité de livraison sur leur secteur.
 
-# 5.1. Le Piège à éviter : Les "Doorway Pages" (Pages Satellites)
+# Le Piège à éviter : Les "Doorway Pages" (Pages Satellites)
 
 Google pénalise lourdement les pages générées automatiquement où seul le nom de la ville change (Doorway Pages). Pour que le pSEO fonctionne en 2026, **chaque page doit apporter une valeur unique à l'utilisateur**. Il ne s'agit pas de faire croire que vous avez un magasin physique à Lyon si ce n'est pas le cas, mais de créer une page "Service de livraison et fourniture pour la région de Lyon".
 
-# 5.2. Gabarit des Pages "Hubs" (Régions & Départements)
+# Gabarit des Pages "Hubs" (Régions & Départements)
 
 Ces pages servent de "routeurs" pour distribuer le jus SEO vers les villes, mais elles peuvent aussi se positionner sur des requêtes plus larges (ex: "Fournisseur police municipale Île-de-France").
 
@@ -18,7 +18,7 @@ Ces pages servent de "routeurs" pour distribuer le jus SEO vers les villes, mais
   * _Descendant :_ Liste claire (idéalement sous forme de grille ou de carte de France cliquable) des départements ou des villes principales de la zone.
   * _Ascendant :_ Fil d'Ariane pointant vers la page mère "Zones d'intervention".
 
-# 5.3. Gabarit des Pages "Villes" (Les Landing Pages Locales)
+# Gabarit des Pages "Villes" (Les Landing Pages Locales)
 
 C'est ici que se fait la conversion. Le template doit mixer des éléments fixes (votre offre) et des éléments hautement dynamiques injectés par notre serveur MCP :
 
@@ -41,7 +41,7 @@ C'est ici que se fait la conversion. Le template doit mixer des éléments fixes
   * _Transversal (Le maillage "Araignée") :_ Ajouter un bloc "Villes desservies à proximité" pointant vers 5 à 10 autres pages villes du même département. C'est crucial pour l'indexation profonde.
   * _Conversion :_ Liens "en dur" vers les vraies catégories e-commerce (ex: "Voir nos Polos", "Voir nos Gilets").
 
-# 5.4. Architecture Technique : Pages Hiérarchiques vs Blog (Le Choix Stratégique)
+# Architecture Technique : Pages Hiérarchiques vs Blog (Le Choix Stratégique)
 
 Il est **strictement déconseillé d'utiliser le Blog** pour héberger ces pages locales.
 
@@ -55,7 +55,7 @@ Puisque j'ai déjà recommandé un CMS Headless (Strapi, Storyblok, etc.) pour l
 2. **Routage (Frontend Nuxt.js) :** Le frontend va lire cette collection et générer des URLs propres et hiérarchiques : `/fournisseur-equipement-police/[region]/[ville]`.
 3. **L'alternative "Tool Sur-Mesure" (Développement Interne) :** Si le volume devient trop massif pour le CMS Headless classique (gérer 35 000 entrées peut ralentir l'interface d'administration de certains CMS), **j'ai la capacité de développer en interne un outil headless dédié**. Il s'agirait d'un micro-service sur-mesure (ex: en FastAPI ou Node.js) doté de sa propre base de données légère. Ce micro-service ne fera qu'une chose : servir les pages pSEO au frontend Nuxt.js via une API ultra-rapide. Mon serveur MCP viendrait alors peupler la base de données de ce micro-service.
 
-# D. Maillage Interne du pSEO
+# Maillage Interne du pSEO
 
 Le plus grand défi du pSEO est de faire crawler et indexer ces milliers de pages par Google sans polluer la navigation principale du site.
 
@@ -63,7 +63,7 @@ Le plus grand défi du pSEO est de faire crawler et indexer ces milliers de page
 * **Structure en entonnoir :** La page mère liste les Régions -> Les pages Régions listent les Départements -> Les pages Départements listent les Villes.
 * **Sitemap XML Dédié :** Créer un fichier `sitemap-local.xml` spécifique pour ces pages afin de forcer l'indexation.
 
-# 5.5. L'Automatisation & Le Rythme de Déploiement (Le rôle du MCP)
+# L'Automatisation & Le Rythme de Déploiement (Le rôle du MCP)
 
 C'est ici que mon architecture technique prend tout son sens. Il est impossible de rédiger 35 000 pages villes manuellement.\
 Mon serveur MCP se connectera à une base de données des communes françaises. Pour chaque ville cible, l'IA générera le contenu dynamique (introduction, FAQ) en s'assurant d'un taux de similarité très faible entre les pages.
@@ -73,7 +73,7 @@ Mon serveur MCP se connectera à une base de données des communes françaises. 
 * **Le danger du "Big Bang" :** Ne publiez **surtout pas** des milliers de pages d'un coup. Cela déclenche immédiatement les filtres anti-spam de Google (pic d'activité anormal) et sature instantanément votre "Crawl Budget". Résultat : 90% de vos pages finiront dans l'onglet "Détectée, actuellement non indexée" de la Search Console et n'en sortiront jamais.
 * **La règle d'or (150 à 200 pages / jour) :** L'approche optimale est le lissage temporel. En injectant environ 170 pages par jour (soit \~5000 pages par mois), vous envoyez un signal de croissance constante et naturelle à Googlebot. Le robot prendra l'habitude de venir crawler vos nouveautés quotidiennement sans jamais saturer son budget alloué à votre site. Mon script d'automatisation sera configuré pour respecter strictement cette cadence de publication.
 
-# 5.6. Les autres Matrices pSEO (Au-delà du Local)
+# Les autres Matrices pSEO (Au-delà du Local)
 
 Le pSEO local est puissant, mais l'architecture sur-mesure que je propose permet d'aller beaucoup plus loin en ciblant des requêtes B2B à très haute intention d'achat. **Attention :** Tout comme pour le local, ces pages sont strictement transactionnelles et doivent être hébergées dans l'outil Headless dédié, **totalement séparées du Blog**.
 

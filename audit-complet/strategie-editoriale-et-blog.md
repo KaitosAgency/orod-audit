@@ -4,7 +4,7 @@
 
 Pour transformer le blog en machine à trafic et à conversion, voici l'architecture complète à implémenter :
 
-# 4.1. Les Pages Catégories du Blog (Le Hub Informationnel)
+# Les Pages Catégories du Blog (Le Hub Informationnel)
 
 Ces pages listent les articles par thématique. Elles agissent comme des "Silos Informationnels" qui viennent nourrir les "Silos E-commerce".
 
@@ -22,7 +22,7 @@ Ces pages listent les articles par thématique. Elles agissent comme des "Silos 
   * _⚠️ Faut-il mettre des étoiles (Avis) ?_ **NON.** Les guidelines de Google interdisent formellement d'utiliser `AggregateRating` sur une page qui se contente de lister des articles de blog. Les étoiles sont réservées aux fiches produits, aux articles individuels (vote du lecteur), ou aux **catégories de produits** (où l'on agrège les notes des produits vendus). Le faire sur une catégorie de blog serait considéré comme du spam de données structurées.
 * **Maillage Interne :** En haut ou sur le côté de la page, faire un lien direct vers la page "Boutique" correspondante (ex: "Voir notre catalogue de vente Police Municipale") pour créer le pont entre informationnel et transactionnel.
 
-# 4.2. Les Pages Articles de Blog (La structure parfaite)
+# Les Pages Articles de Blog (La structure parfaite)
 
 Il existe deux grands types d'articles à produire, chacun avec un objectif précis.
 
