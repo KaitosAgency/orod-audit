@@ -4,6 +4,24 @@ title: Optimisation de la Page d'Accueil (SEO & CRO)
 
 # Optimisation de la Page d'Accueil (SEO & CRO)
 
+### Optimisation des Métadonnées (Title & Description)
+
+**Constat sur la page d'accueil actuelle :**
+
+* **Balise Title :** `<title>Orod - Uniformes, Décorations et Équipements Professionnels | OROD</title>`
+* **Meta Description :** `<meta name="description" content="Uniformes, Équipements, Accessoires et Décorations pour les Armées, la Police Municipale, Gendarmerie, Pompiers...">`
+
+**Analyse et Recommandations SEO :**
+
+1. **Balise Title (Suroptimisée sur le nom de marque) :**
+   * _Le problème :_ Le mot "Orod" ou "OROD" est répété deux fois, ce qui fait perdre de précieux caractères au profit d'autres mots-clés. La mention "Décorations" prend aussi de la place alors que le cœur de cible B2B cherche surtout du "matériel tactique" ou de "l'intervention".
+   * _La solution :_ Épurer le titre pour cibler des mots-clés plus forts et plus transactionnels.
+   * _Exemple recommandé :_ `<title>OROD | Équipements, Uniformes et Matériel Tactique pour Professionnels</title>`
+2. **Meta Description (Manque d'Appel à l'Action) :**
+   * _Le problème :_ La description actuelle est une simple liste de mots-clés qui se termine par des points de suspension `...` (probablement coupée ou mal rédigée). Elle n'incite pas vraiment au clic.
+   * _La solution :_ Rédiger une phrase complète, accrocheuse, et terminer par un appel à l'action clair.
+   * _Exemple recommandé :_ `<meta name="description" content="Découvrez le catalogue OROD : uniformes réglementaires, équipements tactiques et matériel d'intervention pour Police, Gendarmerie, Armées et Pompiers. Qualité et livraison rapide.">`
+
 ### Hiérarchie des titres (H1, H2, H3)
 
 Le balisage actuel ne permet pas à Google de comprendre l'importance de vos contenus. Il y a actuellement deux titres "H1" (dont un sur un message administratif), ce qui est déconseillé.
