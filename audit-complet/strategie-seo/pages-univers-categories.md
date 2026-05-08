@@ -215,12 +215,6 @@ Voici la structure de maillage recommandée pour chaque page catégorie :
    * _Méthode :_ Faire un lien vers un article de blog qui traite spécifiquement de cette catégorie.
    * _Exemple :_ "Vous hésitez entre plusieurs modèles ? Consultez notre guide complet pour [bien choisir son uniforme de Police Municipale](./#lien-blog)."
 
-## Données structurées complémentaires : `ItemList` (liste de produits)
-
-**Constat sur OROD :** Sur la page d’accueil (extrait HTML analysé lors de cet audit), le JSON-LD (`@graph`) couvre surtout **`WebSite`**, **`WebPage`**, **`Organization`** et **`ImageObject`**. Il **n’inclut pas** de schéma **`ItemList`** décrivant les produits effectivement listés dans les grilles.
-
-**Recommandation :** Ajouter un bloc JSON-LD **`ItemList`** sur la **page d’accueil** et sur **chaque page catégorie / univers**, avec une entrée par produit visible (nom + URL canonique du produit, et ordre cohérent avec l’affichage). Cela clarifie pour les moteurs la relation « page liste ↔ produits » et complète les signaux déjà portés par le balisage HTML.
-
 ## Accessibilité (WAI-ARIA) — Un code clair pour les robots et les utilisateurs
 
 Bien que l'accessibilité (WAI-ARIA) soit avant tout destinée aux utilisateurs naviguant avec des lecteurs d'écran (conformité RGAA / WCAG), un code enrichi et structuré de la sorte est un signal extrêmement positif pour Google. Un code clair, qui décrit parfaitement la fonction de chaque élément (un bouton, une modale, un menu déroulant), facilite le "crawl" (l'exploration) par les robots et s'inscrit dans la volonté de Google de valoriser les sites offrant une expérience utilisateur (UX) irréprochable.

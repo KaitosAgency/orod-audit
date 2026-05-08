@@ -1,4 +1,4 @@
----
+﻿---
 title: Optimisation de la Page d'Accueil (SEO & CRO)
 ---
 
@@ -86,3 +86,9 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
   * _Bénéfice CRO :_ Si le produit affiché ne plaît pas totalement, l'utilisateur peut facilement cliquer sur la catégorie pour voir les alternatives, le maintenant ainsi dans le tunnel d'achat (réduction du taux de rebond).
 * **Pour le bug de l'image au survol :**
   * **Solution :** Les images secondaires (affichées au survol) sont déjà correctement configurées au format carré dans la base de données. Le problème vient d'un recadrage CSS ou d'un paramètre d'affichage qui force cette seconde image à devenir rectangulaire. Il suffit de **retirer ce recadrage forcé** dans le code (CSS ou configuration du thème) pour que la seconde image s'affiche dans son format carré natif, tout comme la première. Cela empêchera la grille de se casser sans nécessiter de retouche du catalogue.
+
+### Données structurées complémentaires : `ItemList` (liste de produits)
+
+**Constat sur OROD :** Sur la page d’accueil (extrait HTML analysé lors de cet audit), le JSON-LD (`@graph`) couvre surtout **`WebSite`**, **`WebPage`**, **`Organization`** et **`ImageObject`**. Il **n’inclut pas** de schéma **`ItemList`** décrivant les produits effectivement listés dans les grilles.
+
+**Recommandation :** Ajouter un bloc JSON-LD **`ItemList`** sur la **page d’accueil** et sur **chaque page catégorie / univers**, avec une entrée par produit visible (nom + URL canonique du produit, et ordre cohérent avec l’affichage). Cela clarifie pour les moteurs la relation « page liste ↔ produits » et complète les signaux déjà portés par le balisage HTML.
