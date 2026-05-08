@@ -5,7 +5,7 @@ En B2B et e-commerce, opposer le SEO (naturel) et le SEA (Google Ads) est une er
 
 # Google Shopping (Performance Max)
 
-Vos fiches produits, une fois optimisées avec les données structurées (JSON-LD) recommandées dans la section 3, seront parfaitement formatées pour le Google Merchant Center. Les campagnes "Performance Max" permettront d'afficher visuellement vos produits (photo + prix) tout en haut de la page de recherche, captant l'intention d'achat immédiate.
+Vos fiches produits, une fois optimisées avec les données structurées (JSON-LD) recommandées dans la partie [Stratégie SEO](strategie-seo/index.md), seront parfaitement formatées pour le Google Merchant Center. Les campagnes "Performance Max" permettront d'afficher visuellement vos produits (photo + prix) tout en haut de la page de recherche, captant l'intention d'achat immédiate.
 
 # L'Occupation Totale de la SERP & Retargeting
 

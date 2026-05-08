@@ -1,4 +1,4 @@
----
+﻿---
 title: Optimisation de la Page d'Accueil (SEO & CRO)
 ---
 
@@ -14,7 +14,7 @@ Le balisage actuel ne permet pas à Google de comprendre l'importance de vos con
 
 **Cartes produits (grilles accueil et catégories) :**
 
-Encadrer chaque vignette dans une balise **`<article>`** (voir §3.3 pour le détail).
+Encadrer chaque vignette dans une balise **`<article>`** (voir la page [Univers & Catégories](pages-univers-categories.md) pour le détail).
 
 Utiliser une balise **`<h3>`** pour le titre de chaque produit dans la carte, sous les **`h2`** qui structurent les sections (« Notre sélection », « Gamme ORION », etc.).
 

@@ -84,7 +84,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 
 * Afficher les produits avec les optimisations vues précédemment (marque en badge, survol fluide).
 * **Enveloppe sémantique :** Encapsuler **chaque carte produit** dans une balise **`<article>`** (conteneur de la vignette : image, titre, prix, CTA). Au sens HTML5, une carte est une « composition autonome » redistribuable — ce qui correspond exactement à une unité catalogue. Un code clair, sémantique et bien structuré facilite le travail des robots d'indexation et joue en faveur du référencement global.
-* **Titres dans les cartes :** Baliser chaque nom de produit en **`<h3>`** (accueil et pages catégories), sous le **`h1`** de la page et les **`h2`** de section — hiérarchie cohérente avec la page d'accueil décrite en §3.1.
+* **Titres dans les cartes :** Baliser chaque nom de produit en **`<h3>`** (accueil et pages catégories), sous le **`h1`** de la page et les **`h2`** de section — hiérarchie cohérente avec la page d'accueil décrite sur la [Page d'accueil](page-accueil.md).
 * **Module "Derniers produits consultés" :** Ajouter cette section en bas de la grille. C'est un levier CRO majeur qui facilite la navigation croisée et augmente le panier moyen.
 {% endstep %}
 
@@ -170,7 +170,7 @@ Pour gagner du temps et garantir une cohérence SEO sur les 115 pages catégorie
 * **Règle d'or de structuration :** Insérer un sous-titre (H2 ou H3) tous les **70 à 150 mots environ**. Cela permet de maintenir l'attention du lecteur tout en multipliant les points d'entrée SEO.
 * **Thématiques à explorer :** Le rédacteur devra construire son propre plan pour chaque catégorie en s'assurant d'aborder les critères de choix, la réglementation en vigueur, les spécificités techniques des matériaux, et les différents types de produits disponibles pour cet univers métier.
 
-_🤖 **Astuce de production :** Rédiger des centaines de textes pour les catégories et les fiches produits est un chantier colossal. Cette phase sera **industrialisée via mes outils d'Intelligence Artificielle et mon serveur MCP** connectés à votre ERP Odoo (voir section 11 : Méthodologie de Déploiement)._
+_🤖 **Astuce de production :** Rédiger des centaines de textes pour les catégories et les fiches produits est un chantier colossal. Cette phase sera **industrialisée via mes outils d'Intelligence Artificielle et mon serveur MCP** connectés à votre ERP Odoo (voir la page [Méthodologie de Déploiement](../methodologie-mcp.md))._
 
 **3. Template de FAQ (Foire Aux Questions)**\
 &#xNAN;_&#x4F;bjectif : Capter les positions "People Also Ask" (Autres questions posées) sur Google et lever les derniers freins à l'achat._

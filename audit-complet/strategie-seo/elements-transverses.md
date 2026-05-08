@@ -17,7 +17,7 @@ title: "Éléments Transverses & Autorité"
   * _Colonne 1 : La Marque & Le Groupe._ (Qui sommes-nous, Contact, FAQ). C'est ici qu'il faut ajouter des liens institutionnels vers **Groupe Abilis** et **Krapahute** pour renforcer l'appartenance au groupe et consolider l'E-E-A-T.
   * _Colonne 2 : Nos Univers._ (Les liens SEO stratégiques e-commerce : Police Municipale, Gendarmerie, etc.).
   * _Colonne 3 : Guides & Conseils (Le Blog)._ C'est un point d'entrée crucial pour distribuer le PageRank vers vos "Silos Informationnels". Lister ici les **pages catégories principales de votre blog** (ex: _Guides Police Municipale, Réglementation & Normes, Conseils Équipement Tactique_).
-  * _Colonne 4 : Nos Zones d'Intervention._ C'est le point d'entrée vital pour la stratégie **pSEO locale** (voir Section 5). Ce lien pointera vers la page "Hub" listant toutes les régions et villes desservies.
+  * _Colonne 4 : Nos Zones d'Intervention._ C'est le point d'entrée vitale pour la stratégie **pSEO locale** (voir [SEO Programmatique](../seo-programmatique-pseo.md)). Ce lien pointera vers la page "Hub" listant toutes les régions et villes desservies.
   * _Colonne 5 : Espace Client & Légal._ (Mon compte, Suivi de commande, Retours, CGV, Mentions légales).
 * **Gestion du Catalogue PDF :** Au lieu de faire un lien direct vers le PDF du catalogue Pompiers dans le footer, faire un lien vers une page "Télécharger nos catalogues". Sur cette page, demander l'adresse e-mail en échange du téléchargement (génération de leads / CRO).
 
