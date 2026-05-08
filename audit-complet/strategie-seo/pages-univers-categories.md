@@ -1,6 +1,7 @@
 ---
-title: "Pages Univers & Catégories"
+title: Pages Univers & Catégories
 ---
+
 # Pages Univers & Catégories
 
 ## Optimisation des Métadonnées (Title, Description, JSON-LD)
@@ -63,7 +64,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 
 {% stepper %}
 {% step %}
-## En-tête SEO (Haut de page)
+### En-tête SEO (Haut de page)
 
 * Sous le fil d'Ariane, intégrer un **H1 optimisé** (ex: _Équipements et Uniformes Police Municipale_).
 * Ajouter un court texte introductif (150-200 mots) avec une image d'illustration. Il doit contenir 2 phrases d'intro, un H2 (ex: _Notre sélection réglementaire_), et 2 autres phrases.
@@ -71,7 +72,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-## Navigation & Filtres (Barre latérale gauche)
+### Navigation & Filtres (Barre latérale gauche)
 
 * _Est-ce pertinent ?_ Oui, absolument indispensable pour l'UX quand on a 187 produits. L'utilisateur doit pouvoir filtrer par taille, prix ou type.
 * _Titres des groupes de filtres :_ Utiliser des **`<div>`** (ou libellés neutres) pour les intitulés de blocs filtres (ex. « Taille », « Prix »), **sans balises `h2`–`h6`**, afin de ne pas diluer la hiérarchie des titres réservée au contenu éditorial et aux produits.
@@ -79,7 +80,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-## Grille Produits & UX
+### Grille Produits & UX
 
 * Afficher les produits avec les optimisations vues précédemment (marque en badge, survol fluide).
 * **Enveloppe sémantique :** Encapsuler **chaque carte produit** dans une balise **`<article>`** (conteneur de la vignette : image, titre, prix, CTA). Au sens HTML5, une carte est une « composition autonome » redistribuable — ce qui correspond exactement à une unité catalogue. Un code clair, sémantique et bien structuré facilite le travail des robots d'indexation et joue en faveur du référencement global.
@@ -88,7 +89,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-## Preuve Sociale (Avis Clients Catégorie)
+### Preuve Sociale (Avis Clients Catégorie)
 
 * _Où les placer ?_ Juste sous la grille de produits (et les derniers consultés), avant le gros bloc de texte SEO.
 * _Quoi afficher ?_ Un carrousel des meilleurs avis clients concernant spécifiquement les produits de cet univers (ex: avis sur les uniformes PM).
@@ -96,14 +97,14 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-## Le Bloc "Texte SEO" (Bas de page)
+### Le Bloc "Texte SEO" (Bas de page)
 
 * C'est le moteur de votre référencement. Un texte riche de **1500 à 3000 mots**, structuré avec de très nombreux H2 et H3 (règle de rédaction : prévoir un sous-titre H2 ou H3 tous les 70 à 150 mots environ pour aérer la lecture et maximiser les requêtes de longue traîne).
 * _Astuce UX / SEO :_ **Ne pas** imposer une hauteur fixe en pixels. Préférer une **troncature à 4 lignes** avec les mêmes propriétés CSS que pour l'en-tête (`-webkit-line-clamp: 4`, ellipse, etc.), le texte complet restant présent dans le DOM pour l’indexation. Offrir un bouton « En savoir plus » / « Déplier » qui retire la limite ou affiche le bloc en entier améliore la lisibilité sans réduire le signal SEO.
 {% endstep %}
 
 {% step %}
-## FAQ (balises HTML5 + JSON-LD)
+### FAQ (balises HTML5 + JSON-LD)
 
 * **Constat sur OROD :** À ce jour, les pages catégories / univers analysées ne comportent pas encore de bloc FAQ structuré en `<details>` / `<summary>` ni de FAQ dédiée alignée avec une donnée structurée FAQ.
 * **Recommandation d'intégration :** Intégrer **6 questions fréquentes** liées à l’univers, en utilisant **exclusivement les balises HTML5 natives** : chaque question dans un `<summary>`, la réponse dans le corps du `<details>`.
@@ -113,20 +114,20 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-## Maillage Éditorial (Blog)
+### Maillage Éditorial (Blog)
 
 * Afficher les 3 ou 4 derniers articles de blog **spécifiques à cet univers**. Cela crée un "Cocon Sémantique" parfait aux yeux de Google (la page de vente fait des liens vers les pages conseils, et inversement).
 * Titres des cartes / vignettes blog sur ces blocs : balises **`<h3>`**.
 {% endstep %}
 
 {% step %}
-## Bandeau de Réassurance
+### Bandeau de Réassurance
 
 * Juste avant le footer, rappeler les éléments de confiance : Livraison, Paiement sécurisé (Chorus Pro), Service client.
 {% endstep %}
 
 {% step %}
-## Affichage responsive (Mobile-First)
+### Affichage responsive (Mobile-First)
 
 * Il est acceptable d’utiliser des **classes CSS** pour masquer ou réordonner des blocs selon la viewport (ex. équivalents de `hidden-mobile`, `desktop-only`, `mobile-only`), tant que **le même HTML** est servi à tous les utilisateurs. Cela reste aligné avec une indexation **mobile-first** tant qu’on ne sert pas un contenu différent selon le user-agent pour tromper les moteurs (à distinguer du simple responsive par CSS).
 {% endstep %}
@@ -155,7 +156,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 Pour gagner du temps et garantir une cohérence SEO sur les 115 pages catégories potentielles, voici des gabarits (templates) à fournir aux rédacteurs. Ils sont conçus pour intégrer naturellement les mots-clés tout en répondant aux exigences des professionnels de la sécurité.
 
 **1. Template du Texte Introductif (Haut de page - 100 à 150 mots)**\
-_Objectif : Accrocher l'utilisateur, placer le mot-clé principal (H1) et rassurer immédiatement. Le rédacteur devra faire preuve de créativité pour éviter la duplication._
+&#xNAN;_&#x4F;bjectif : Accrocher l'utilisateur, placer le mot-clé principal (H1) et rassurer immédiatement. Le rédacteur devra faire preuve de créativité pour éviter la duplication._
 
 * **H1 :** Mot-clé principal (Type d'équipement + Univers métier).
 * **Phrase 1 (L'accroche métier) :** Intégration naturelle du mot-clé principal et ciblage des exigences spécifiques de l'univers métier.
@@ -163,7 +164,7 @@ _Objectif : Accrocher l'utilisateur, placer le mot-clé principal (H1) et rassur
 * **Phrase 3 (L'appel à l'action) :** Invitation à parcourir le catalogue et à utiliser les filtres.
 
 **2. Template du Texte SEO Long (Bas de page - 1500 à 3000 mots)**\
-_Objectif : Créer un contenu exhaustif pour capter la longue traîne SEO, asseoir l'expertise E-E-A-T d'OROD et développer un champ sémantique riche, sans brider la créativité du rédacteur avec une structure figée._
+&#xNAN;_&#x4F;bjectif : Créer un contenu exhaustif pour capter la longue traîne SEO, asseoir l'expertise E-E-A-T d'OROD et développer un champ sémantique riche, sans brider la créativité du rédacteur avec une structure figée._
 
 * **Volume et densité :** Pour atteindre les **1500 à 3000 mots** sans faire de "remplissage" (fluff), il est impératif de développer en profondeur le champ lexical spécifique à chaque catégorie.
 * **Règle d'or de structuration :** Insérer un sous-titre (H2 ou H3) tous les **70 à 150 mots environ**. Cela permet de maintenir l'attention du lecteur tout en multipliant les points d'entrée SEO.
@@ -172,7 +173,7 @@ _Objectif : Créer un contenu exhaustif pour capter la longue traîne SEO, asseo
 _🤖 **Astuce de production :** Rédiger des centaines de textes pour les catégories et les fiches produits est un chantier colossal. Cette phase sera **industrialisée via mes outils d'Intelligence Artificielle et mon serveur MCP** connectés à votre ERP Odoo (voir section 11 : Méthodologie de Déploiement)._
 
 **3. Template de FAQ (Foire Aux Questions)**\
-_Objectif : Capter les positions "People Also Ask" (Autres questions posées) sur Google et lever les derniers freins à l'achat._
+&#xNAN;_&#x4F;bjectif : Capter les positions "People Also Ask" (Autres questions posées) sur Google et lever les derniers freins à l'achat._
 
 * **Volume attendu :**
   * **6 questions** pour les pages **Catégories**.
@@ -265,4 +266,3 @@ Ces éléments constituent une excellente base de niveau A/AA qu'il convient de 
 | **`aria-invalid`**  | Formulaires compte, contact, checkout (erreur de saisie).                                                                  |
 
 **Rôles WAI-ARIA (`role`) souvent associés** (non préfixés par `aria-`) : `navigation`, `search`, `main`, `button`, `dialog`, `region`, `group`, `status`, `presentation`, `list`, `listitem`. À utiliser pour préciser la fonction d'un bloc lorsque le HTML natif ne suffit pas.
-

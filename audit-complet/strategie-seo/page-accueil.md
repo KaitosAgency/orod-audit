@@ -1,9 +1,10 @@
 ---
-title: "Optimisation de la Page d'Accueil (SEO & CRO)"
+title: Optimisation de la Page d'Accueil (SEO & CRO)
 ---
-﻿# Page d'accueil
 
-## Hiérarchie des titres (H1, H2, H3)
+# Optimisation de la Page d'Accueil (SEO & CRO)
+
+### Hiérarchie des titres (H1, H2, H3)
 
 Le balisage actuel ne permet pas à Google de comprendre l'importance de vos contenus. Il y a actuellement deux titres "H1" (dont un sur un message administratif), ce qui est déconseillé.
 
@@ -21,7 +22,7 @@ Hiérarchie cible : **H1** page → **H2** section → **H3** titre produit.
 
 Le rendu visuel (taille de police, graisse) reste libre via le CSS : seule la structure HTML compte pour le référencement.
 
-## Rédactionnel & Maillage (Copywriting)
+### Rédactionnel & Maillage (Copywriting)
 
 La page d'accueil est très visuelle mais manque de texte descriptif pour Google.
 
@@ -35,8 +36,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
   * **Bénéfice :** Cela permet d'injecter du vocabulaire métier spécifique dès la home et d'améliorer le maillage interne.
 * **Appels à l'action (CTA) :** Remplacer les boutons "DÉCOUVREZ" par des textes plus incitatifs et précis comme _"Voir l'univers Police Municipale"_ ou _"Découvrir la gamme Orion"_.
 
-
-## Hero Banner & Animation Commerciale (Calendrier Marketing)
+### Hero Banner & Animation Commerciale (Calendrier Marketing)
 
 **Constat :** Le "Hero Banner" (le grand visuel en haut de la page d'accueil) est la zone la plus visible du site. Actuellement, il ne semble pas exploité à son plein potentiel pour l'animation commerciale.\
 **Recommandation :**
@@ -46,7 +46,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 * **Session de travail "Batching" :** Organiser une grande session de travail (design/marketing) pour créer d'un seul coup tous les visuels du Hero Banner et les bannières d'e-mailing correspondantes pour toute l'année (ex: Soldes d'hiver, Équipement d'été, Rentrée, Black Friday, etc.). Cela garantit une cohérence visuelle, un gain de temps énorme, et une animation continue du site sans effort au quotidien.
 * **Automatisation sur-mesure (Mon accompagnement) :** Pour exécuter ce calendrier annuel sans friction, j'ai développé mes propres programmes sur-mesure. Une fois les visuels créés lors du batching, mes scripts se chargent de mettre à jour automatiquement les Hero Banners sur le site aux dates prévues, sans aucune intervention manuelle de votre part.
 
-## Preuve Sociale & Réassurance
+### Preuve Sociale & Réassurance
 
 **Constat :** Le site manque d'éléments de réassurance visibles sur la page d'accueil (avis clients, logos de partenaires, certifications, contact direct).\
 **Recommandation :**
@@ -56,7 +56,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 * **Chiffres clés :** Mettre en avant des données rassurantes (ex: "Plus de 200 points de contact", "Livraison rapide").
 * **Bloc "À votre écoute" :** Intégrer un bloc très visible avec les coordonnées de contact (téléphone, e-mail, horaires) pour humaniser la relation commerciale, particulièrement importante en B2B / institutionnel.
 
-## Capture de Leads (Pop-up & Widget)
+### Capture de Leads (Pop-up & Widget)
 
 **Constat :** La page d'accueil propose une simple ligne "Newsletter" en bas de page, ce qui génère un taux d'inscription très faible.\
 **Recommandation :**
@@ -65,7 +65,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 * **Widget flottant :** Alternativement, un petit widget discret en bas à gauche de l'écran rappelant cette offre.
 * **Impact chiffré (Benchmark E-commerce) :** Ce type de mécanique (Incentive vs E-mail) permet généralement de convertir jusqu'à **30% des visiteurs** en abonnés. Une fois l'e-mail capté, la conversion est beaucoup plus aisée via des séquences automatisées. Dans un e-commerce bien optimisé, le canal e-mail (Newsletters + Automations) doit représenter entre **20% et 30% du Chiffre d'Affaires global**. Bien que la niche institutionnelle d'OROD soit spécifique, la capture d'e-mails reste le levier d'acquisition le plus rentable.
 
-## Affichage des Produits (Grilles & Survol)
+### Affichage des Produits (Grilles & Survol)
 
 **Constat 1 : Le nom de la marque.** Sous chaque titre de produit, le nom de la marque (ex: OROD, DMB) est affiché. Bien que pertinent dans un catalogue multi-marques, son affichage actuel manque de hiérarchie visuelle et ressemble à du texte brut.\
 **Constat 2 : L'effet de survol (Hover) cassé.** Au repos, les vignettes produits sont bien carrées (ratio natif des images). Cependant, au survol de la souris sur une carte produit (page d'accueil ou catégorie), une seconde image s'affiche. Si cette seconde image est rectangulaire (horizontale ou verticale), elle "casse" la grille carrée, donnant un aspect non fini au site et déformant potentiellement l'image si elle est étirée.
