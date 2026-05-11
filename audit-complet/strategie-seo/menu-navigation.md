@@ -1,19 +1,24 @@
 ---
-title: "Menu & Navigation"
+title: Menu & Navigation
 ---
-# Menu & Navigation (Arborescence)
+
+# Menu & Navigation
 
 ## Sémantique, Accessibilité et Structure HTML du Menu
 
 **Constat :** L'analyse du code source (HTML) révèle plusieurs lacunes concernant la structure du menu :
+
 * Le menu n'utilise pas la balise sémantique HTML5 `<nav>`, mais est encapsulé dans de simples blocs `<div>`.
 * La structure est très verbeuse, avec une imbrication excessive de `<div>` autour des listes (`<ul>` et `<li>`), ce qui alourdit l'exploration par les robots de Google.
 * Il manque les attributs d'accessibilité (WAI-ARIA) pour indiquer clairement aux moteurs de recherche le comportement des sous-menus.
 * **Aucune donnée structurée de type `SiteNavigationElement`** n'est présente pour aider Google à comprendre l'arborescence globale.
 
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
 _Figure 4 : Aperçu actuel des Sitelinks sur Google._
 
-**Analyse des Sitelinks actuels :** Bien que Google affiche des sous-liens (Sitelinks), leur sélection est automatique et non maîtrisée. On y trouve des pages pertinentes ("Police Municipale", "Uniformes") mais aussi des pages moins stratégiques ou mal décrites ("Explorez", "Tshirts - Polos" avec une description tronquée sur la newsletter).\
+**Analyse des Sitelinks actuels :** Bien que Google affiche des sous-liens (Sitelinks), leur sélection est automatique et non maîtrisée. On y trouve des pages pertinentes ("Police Municipale", "Uniformes") mais aussi des pages moins stratégiques ou mal décrites ("Explorez", "Tshirts - Polos" avec une description tronquée sur la newsletter).
+
 **Recommandations pour un menu "10/10" :**
 
 * **Adopter la balise `<nav>` :** Remplacer le bloc principal par une balise `<nav>` avec l'attribut `aria-label="Menu principal"` pour signaler sans ambiguïté la navigation prioritaire.
@@ -23,7 +28,8 @@ _Figure 4 : Aperçu actuel des Sitelinks sur Google._
 
 ## Optimisation des Ancres de Liens (Mots-clés du Menu)
 
-**Constat :** Les intitulés du menu (sous-catégories) sont actuellement très génériques (ex: "Hauts", "Bas", "Tête - Coiffes", "Équipements"). Pour Google, le texte d'un lien (l'ancre) est un signal fort pour comprendre le contenu de la page de destination. Un lien "Hauts" n'a aucune valeur SEO.\
+**Constat :** Les intitulés du menu (sous-catégories) sont actuellement très génériques (ex: "Hauts", "Bas", "Tête - Coiffes", "Équipements"). Pour Google, le texte d'un lien (l'ancre) est un signal fort pour comprendre le contenu de la page de destination. Un lien "Hauts" n'a aucune valeur SEO.
+
 **Recommandation :**
 
 * **Enrichir les libellés (sans sur-optimiser) :** Remplacer les termes génériques par des mots-clés métier pertinents, mais garder un menu visuellement digeste pour l'utilisateur.
@@ -37,7 +43,8 @@ _Figure 4 : Aperçu actuel des Sitelinks sur Google._
 
 ## Structure des URLs du Menu (Filtres vs URLs propres)
 
-**Constat :** Les liens du menu pointent vers des URLs contenant des paramètres de filtres (ex: `/uniformes/hauts?univers=["Police+Municipale"]`).\
-**Impact :** Les URLs avec paramètres sont moins bien comprises et indexées par Google que des URLs statiques et propres.\
-**Recommandation :** Transformer ces liens paramétrés en véritables URLs "propres" (ex: `/police-municipale/uniformes/hauts`). Cela créera de véritables pages "catégories" optimisables pour le SEO.
+**Constat :** Les liens du menu pointent vers des URLs contenant des paramètres de filtres (ex: `/uniformes/hauts?univers=["Police+Municipale"]`).
 
+**Impact :** Les URLs avec paramètres sont moins bien comprises et indexées par Google que des URLs statiques et propres.
+
+**Recommandation :** Transformer ces liens paramétrés en véritables URLs "propres" (ex: `/police-municipale/uniformes/hauts`). Cela créera de véritables pages "catégories" optimisables pour le SEO.
