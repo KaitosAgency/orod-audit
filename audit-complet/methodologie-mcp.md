@@ -10,8 +10,7 @@ Pour garantir un déploiement rapide, exhaustif et sans erreur sur l'ensemble du
 
 ## Le cœur technologique : L'intégration MCP / API Odoo
 
-Le MCP est un protocole standardisé permettant de connecter de manière sécurisée des Intelligences Artificielles avancées à des sources de données d'entreprise.\
-Plutôt que d'utiliser des méthodes risquées (comme l'injection directe par connexion SSH) ou chronophages (copier-coller manuel), j'installe un **serveur MCP dédié** au plus près de votre écosystème (sur votre serveur ou via une API sécurisée). Mes IA de rédaction (les "clients" MCP) viennent ensuite s'y connecter à distance. Ce serveur agit comme un pont sécurisé et structuré qui contrôle exactement ce que l'IA a le droit de lire et d'écrire dans votre base de données Odoo (PIM/ERP).
+Le **MCP (Model Context Protocol)** s'installe directement sur l'ERP Odoo. Une fois en place, nous fixons les permissions exactes en écriture et en lecture. Cela nous permet ensuite de donner un accès sécurisé à mon agent IA, pour qu'il puisse intervenir de manière autonome : créer, modifier ou supprimer du contenu, gérer les fiches produits et leurs métadonnées, ainsi que piloter les pages catégories et le blog.
 
 ## Mes 4 piliers d'automatisation pour OROD :
 

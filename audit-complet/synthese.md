@@ -44,6 +44,6 @@ L'objectif de cet audit n'est pas seulement de corriger ces erreurs, mais de tra
 **L'Avantage Concurrentiel (L'Automatisation MCP) :**\
 Déployer cette stratégie manuellement prendrait des années. Mon approche repose sur l'ingénierie :
 
-j'installe un **serveur MCP (Model Context Protocol)** sur-mesure directement sur votre infrastructure (ou en connexion sécurisée avec votre écosystème).
+j'installe le **MCP (Model Context Protocol)** directement sur votre ERP Odoo.
 
-Mes Intelligences Artificielles se connectent ensuite à distance à cette passerelle pour interagir avec votre base Odoo. Cela permet de générer, optimiser et publier l'intégralité des contenus (fiches produits, pSEO, e-mailing) de manière 100% automatisée, tout en garantissant une résilience totale lors de vos futures montées de version Odoo.
+Une fois les permissions en écriture et en lecture fixées, nous donnons un accès sécurisé à mon agent IA pour qu'il puisse interagir de manière autonome. Cela lui permet de créer, modifier ou supprimer du contenu, de gérer les fiches produits et les métadonnées, ainsi que les pages catégories et le blog de manière 100% automatisée.
