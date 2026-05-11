@@ -29,6 +29,8 @@ title: Fiches produits
 
 ## Refonte UX/UI de la Fiche Produit (Le "Chaos" actuel)
 
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 **Constat :** La structure actuelle de la fiche produit (ex: Polo Airflow) est confuse et ne guide pas l'utilisateur vers l'achat de manière fluide. Les informations sont éparpillées, la galerie d'images est mal proportionnée, et les éléments de réassurance sont mal placés.
 
 **Recommandation : Le Gabarit Idéal d'une Fiche Produit (CRO & SEO)**\
@@ -36,7 +38,7 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 
 {% stepper %}
 {% step %}
-#### Le Haut de Page (Above the Fold) - Zone d'achat immédiate
+**Le Haut de Page (Above the Fold) - Zone d'achat immédiate**
 
 * **Fil d'Ariane (Breadcrumb) :** À conserver tout en haut (très bon pour le SEO et la navigation).
 * **Colonne Gauche (Galerie Médias) :**
@@ -57,14 +59,14 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 {% endstep %}
 
 {% step %}
-#### Le Milieu de Page - Réassurance & Navigation interne
+**Le Milieu de Page - Réassurance & Navigation interne**
 
 * **Bandeau de réassurance :** Juste sous la ligne de flottaison (sous les colonnes images/achat), insérer un bandeau horizontal (splité en 3 ou 4 colonnes) avec des icônes : Expédition rapide, Livraison sécurisée, Programme de fidélité, X clients satisfaits.
 * **Menu d'ancres (Navigation interne) :** Un menu horizontal collant (sticky) avec 4 liens : _Description | Avis clients | Caractéristiques | Détails de livraison_. Ces liens ne doivent pas ouvrir de nouveaux onglets, mais faire défiler (scroller) la page fluidement vers la section correspondante plus bas.
 {% endstep %}
 
 {% step %}
-#### Le Bas de Page - Contenu détaillé (SEO & Information)
+**Le Bas de Page - Contenu détaillé (SEO & Information)**
 
 * **Bloc Description (SEO) :** Un texte riche de 300 à 500 mots. Commencer par un H2. Pour ne pas casser le design, n'afficher que les 3 premières lignes, suivies d'un bouton "En savoir plus" pour dérouler la suite du texte.
 * **Bloc Avis Clients :** Affichage détaillé des commentaires.
@@ -78,13 +80,15 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 {% endstep %}
 
 {% step %}
-#### L'Élément "Sticky" (Boost de Conversion)
+**L'Élément "Sticky" (Boost de Conversion)**
 
 * **Résumé du panier flottant :** Lorsqu'on scrolle vers le bas (à partir de 20% de la page) et que le bouton principal d'ajout au panier disparaît de l'écran, faire apparaître une barre collante en bas de l'écran (Sticky Bottom) contenant le nom du produit, le prix et un bouton "Ajouter au panier". C'est redoutable pour l'UX mobile.
 {% endstep %}
 {% endstepper %}
 
 ## Rédactionnel, Pictogrammes & Template SEO (Fiche Produit)
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **1. La Description Courte (Haut de page - Zone d'achat)**\
 L'objectif de ces 2 phrases sous le prix est de convaincre l'acheteur en 3 secondes.
@@ -132,8 +136,10 @@ Tout comme les pages catégories, les fiches produits ne doivent pas être des "
 
 **Rappel :** `og:type` est une étiquette qui indique aux applications (Facebook, LinkedIn, messageries) le genre de page visitée : « site web », « article », « vidéo », « produit », etc.
 
-**Constat :** Sur les fiches produits d'OROD, la balise est actuellement réglée sur `og:type = website`.\
-**Recommandation :** Modifier cette valeur en `og:type = product`.\
+**Constat :** Sur les fiches produits d'OROD, la balise est actuellement réglée sur `og:type = website`.
+
+**Recommandation :** Modifier cette valeur en `og:type = product`.
+
 **Bénéfice :** Cela permet de nommer correctement le contenu pour les algorithmes et d'améliorer la cohérence sémantique lors des partages.
 
 ## Données Structurées Produit (JSON-LD) & Étoiles Google
@@ -150,8 +156,8 @@ L'analyse du code source montre que le site utilise déjà un balisage JSON-LD t
 
 ## Optimisation Technique des Images (Image SEO & Web Perf)
 
-**Constat (Crawl d'un échantillon de fiches produits) :**
-L'analyse approfondie du code source des fiches produits révèle **d'excellentes pratiques déjà en place** grâce au framework technique (Nuxt Image / Shop Invaders) :
+**Constat (Crawl d'un échantillon de fiches produits) :** L'analyse approfondie du code source des fiches produits révèle **d'excellentes pratiques déjà en place** grâce au framework technique (Nuxt Image / Shop Invaders) :
+
 * Les images utilisent le format moderne **WebP** via la balise `<picture>` et `<source>`.
 * Les attributs `srcset` et `sizes` sont générés pour offrir un rendu responsive (mobile/desktop).
 * Le chargement différé (`loading="lazy"`) est natif sur les images.
