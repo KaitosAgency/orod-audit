@@ -1,10 +1,12 @@
-﻿---
+---
 title: Optimisation de la Page d'Accueil (SEO & CRO)
 ---
 
-# Optimisation de la Page d'Accueil (SEO & CRO)
+# Page d'Accueil
 
 ### Optimisation des Métadonnées (Title & Description)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **Constat sur la page d'accueil actuelle :**
 
@@ -88,7 +90,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Affichage des Produits (Grilles & Survol)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Constat 1 : Le nom de la marque.** Sous chaque titre de produit, le nom de la marque (ex: OROD, DMB) est affiché. Bien que pertinent dans un catalogue multi-marques, son affichage actuel manque de hiérarchie visuelle et ressemble à du texte brut.
 
@@ -107,8 +109,6 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 
 ### Données structurées complémentaires : `ItemList` via le module de Grille Produit
 
-**Constat sur OROD :** Sur la page d’accueil, le JSON-LD (`@graph`) couvre surtout **`WebSite`**, **`WebPage`**, **`Organization`** et **`ImageObject`**. Il **n’inclut pas** de schéma **`ItemList`** décrivant les produits listés dans les grilles. 
+**Constat sur OROD :** Sur la page d’accueil, le JSON-LD (`@graph`) couvre surtout **`WebSite`**, **`WebPage`**, **`Organization`** et **`ImageObject`**. Il **n’inclut pas** de schéma **`ItemList`** décrivant les produits listés dans les grilles.
 
-**Recommandation technique :** L'architecture de la page d'accueil (sous Odoo Shop Invaders / Vue.js) étant modulaire, ces données structurées ne doivent pas être codées "en dur" sur la page d'accueil. 
-Il faut **intégrer la génération du JSON-LD `ItemList` directement au sein du composant/module de "Grille Produit" (Product Grid)**. 
-Ainsi, chaque fois qu'une grille de produits est appelée (que ce soit sur la page d'accueil, sur une page catégorie, ou dans un article de blog), le module générera automatiquement le balisage `ItemList` correspondant avec une entrée par produit visible (nom + URL canonique, position). Cela garantit un référencement dynamique et parfait à l'échelle de tout le site, sans effort supplémentaire.
+**Recommandation technique :** L'architecture de la page d'accueil (sous Odoo Shop Invaders / Vue.js) étant modulaire, ces données structurées ne doivent pas être codées "en dur" sur la page d'accueil. Il faut **intégrer la génération du JSON-LD `ItemList` directement au sein du composant/module de "Grille Produit" (Product Grid)**. Ainsi, chaque fois qu'une grille de produits est appelée (que ce soit sur la page d'accueil, sur une page catégorie, ou dans un article de blog), le module générera automatiquement le balisage `ItemList` correspondant avec une entrée par produit visible (nom + URL canonique, position). Cela garantit un référencement dynamique et parfait à l'échelle de tout le site, sans effort supplémentaire.

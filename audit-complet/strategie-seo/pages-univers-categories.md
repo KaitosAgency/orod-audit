@@ -35,11 +35,16 @@ title: Pages Univers & Catégories
 
 **Constat :** Le site possède bien des pages "Univers" propres (ex: `/univers/police-municipale`). Cependant, dès que l'on navigue dans les sous-catégories (ex: Uniformes, Hauts) depuis le menu, le site utilise un système de filtres d'URL.
 
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
 _Figure 5 : URL filtrée pour la catégorie Uniformes._
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 _Figure 6 : URL filtrée pour la sous-catégorie Hauts._
 
-**Impact :** Bien que pratique pour l'utilisateur, ce système génère des URLs dynamiques (ex: `?univers=["Police+Municipale"]`) qui sont très mal comprises et indexées par Google. Google préfère les arborescences claires en "Silos" (des dossiers bien rangés).\
+**Impact :** Bien que pratique pour l'utilisateur, ce système génère des URLs dynamiques (ex: `?univers=["Police+Municipale"]`) qui sont très mal comprises et indexées par Google. Google préfère les arborescences claires en "Silos" (des dossiers bien rangés).
+
 **Recommandation :**
 
 * **Transformer les filtres en véritables pages (Silos) :** Au lieu de filtrer une page générique "Hauts", il faut créer des pages physiques dédiées à chaque intention de recherche, imbriquées sous leur univers.
@@ -64,7 +69,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 
 {% stepper %}
 {% step %}
-#### En-tête SEO (Haut de page)
+**En-tête SEO (Haut de page)**
 
 * Sous le fil d'Ariane, intégrer un **H1 optimisé** (ex: _Équipements et Uniformes Police Municipale_).
 * Ajouter un court texte introductif (150-200 mots) avec une image d'illustration. Il doit contenir 2 phrases d'intro, un H2 (ex: _Notre sélection réglementaire_), et 2 autres phrases.
@@ -72,7 +77,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-#### Navigation & Filtres (Barre latérale gauche)
+**Navigation & Filtres (Barre latérale gauche)**
 
 * _Est-ce pertinent ?_ Oui, absolument indispensable pour l'UX quand on a 187 produits. L'utilisateur doit pouvoir filtrer par taille, prix ou type.
 * _Titres des groupes de filtres :_ Utiliser des **`<div>`** (ou libellés neutres) pour les intitulés de blocs filtres (ex. « Taille », « Prix »), **sans balises `h2`–`h6`**, afin de ne pas diluer la hiérarchie des titres réservée au contenu éditorial et aux produits.
@@ -80,7 +85,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-#### Grille Produits & UX
+**Grille Produits & UX**
 
 * Afficher les produits avec les optimisations vues précédemment (marque en badge, survol fluide).
 * **Enveloppe sémantique :** Encapsuler **chaque carte produit** dans une balise **`<article>`** (conteneur de la vignette : image, titre, prix, CTA). Au sens HTML5, une carte est une « composition autonome » redistribuable — ce qui correspond exactement à une unité catalogue. Un code clair, sémantique et bien structuré facilite le travail des robots d'indexation et joue en faveur du référencement global.
@@ -89,7 +94,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-#### Preuve Sociale (Avis Clients Catégorie)
+**Preuve Sociale (Avis Clients Catégorie)**
 
 * _Où les placer ?_ Juste sous la grille de produits (et les derniers consultés), avant le gros bloc de texte SEO.
 * _Quoi afficher ?_ Un carrousel des meilleurs avis clients concernant spécifiquement les produits de cet univers (ex: avis sur les uniformes PM).
@@ -97,14 +102,14 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-#### Le Bloc "Texte SEO" (Bas de page)
+**Le Bloc "Texte SEO" (Bas de page)**
 
 * C'est le moteur de votre référencement. Un texte riche de **1500 à 3000 mots**, structuré avec de très nombreux H2 et H3 (règle de rédaction : prévoir un sous-titre H2 ou H3 tous les 70 à 150 mots environ pour aérer la lecture et maximiser les requêtes de longue traîne).
 * _Astuce UX / SEO :_ **Ne pas** imposer une hauteur fixe en pixels. Préférer une **troncature à 4 lignes** avec les mêmes propriétés CSS que pour l'en-tête (`-webkit-line-clamp: 4`, ellipse, etc.), le texte complet restant présent dans le DOM pour l’indexation. Offrir un bouton « En savoir plus » / « Déplier » qui retire la limite ou affiche le bloc en entier améliore la lisibilité sans réduire le signal SEO.
 {% endstep %}
 
 {% step %}
-#### FAQ (balises HTML5 + JSON-LD)
+**FAQ (balises HTML5 + JSON-LD)**
 
 * **Constat sur OROD :** À ce jour, les pages catégories / univers analysées ne comportent pas encore de bloc FAQ structuré en `<details>` / `<summary>` ni de FAQ dédiée alignée avec une donnée structurée FAQ.
 * **Recommandation d'intégration :** Intégrer **6 questions fréquentes** liées à l’univers, en utilisant **exclusivement les balises HTML5 natives** : chaque question dans un `<summary>`, la réponse dans le corps du `<details>`.
@@ -114,20 +119,20 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% endstep %}
 
 {% step %}
-#### Maillage Éditorial (Blog)
+**Maillage Éditorial (Blog)**
 
 * Afficher les 3 ou 4 derniers articles de blog **spécifiques à cet univers**. Cela crée un "Cocon Sémantique" parfait aux yeux de Google (la page de vente fait des liens vers les pages conseils, et inversement).
 * Titres des cartes / vignettes blog sur ces blocs : balises **`<h3>`**.
 {% endstep %}
 
 {% step %}
-#### Bandeau de Réassurance
+**Bandeau de Réassurance**
 
 * Juste avant le footer, rappeler les éléments de confiance : Livraison, Paiement sécurisé (Chorus Pro), Service client.
 {% endstep %}
 
 {% step %}
-#### Affichage responsive (Mobile-First)
+**Affichage responsive (Mobile-First)**
 
 * Il est acceptable d’utiliser des **classes CSS** pour masquer ou réordonner des blocs selon la viewport (ex. équivalents de `hidden-mobile`, `desktop-only`, `mobile-only`), tant que **le même HTML** est servi à tous les utilisateurs. Cela reste aligné avec une indexation **mobile-first** tant qu’on ne sert pas un contenu différent selon le user-agent pour tromper les moteurs (à distinguer du simple responsive par CSS).
 {% endstep %}
@@ -135,7 +140,8 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 
 ## Pagination & Scroll Infini (Le piège UX / SEO)
 
-**Constat :** Les pages catégories d'OROD utilisent un système de chargement des produits au fur et à mesure de la descente (Scroll Infini), tout en générant des URLs paginées (ex: `?page=3`).\
+**Constat :** Les pages catégories d'OROD utilisent un système de chargement des produits au fur et à mesure de la descente (Scroll Infini), tout en générant des URLs paginées (ex: `?page=3`).
+
 **Le problème du "Footer Inaccessible" :** Le scroll infini automatique est un faux-ami en e-commerce. Si les produits se chargent indéfiniment, l'utilisateur ne peut **jamais** atteindre le bas de la page. Conséquence dramatique : le bloc d'Avis Clients, le texte SEO (Guide d'achat) et le Footer (avec tous ses liens de réassurance et de maillage) deviennent totalement inaccessibles pour un humain.
 
 **Recommandations UX & SEO :**

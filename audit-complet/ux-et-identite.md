@@ -12,7 +12,7 @@ title: Expérience Utilisateur (UX) & Identité
 
 **Constat :** L'agencement actuel du header peut être optimisé pour mettre en valeur les éléments qui convertissent le plus. De plus, l'entrée de menu "Explorez" occupe une place de choix sans apporter de forte valeur ajoutée transactionnelle.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Recommandations :**
 
@@ -51,7 +51,7 @@ _Figure 2 : Test d'affichage avec logo centré pour une meilleure reconnaissance
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -67,7 +67,7 @@ _Figure 3 : Problèmes d'intégration mobile (Bouton CTA détaché et marges man
 
 **Constat :** Les aperçus de liens (sur WhatsApp, Facebook, LinkedIn) sont inconsistants. L'image ou la description manquent souvent sur l'accueil et les catégories.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 3 : Comparaison des aperçus de liens sur WhatsApp (produits vs catégories/accueil)._
 
