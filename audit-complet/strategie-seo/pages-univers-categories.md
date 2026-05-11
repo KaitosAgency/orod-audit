@@ -162,7 +162,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 Pour gagner du temps et garantir une cohérence SEO sur les 115 pages catégories potentielles, voici des gabarits (templates) à fournir aux rédacteurs. Ils sont conçus pour intégrer naturellement les mots-clés tout en répondant aux exigences des professionnels de la sécurité.
 
 **1. Template du Texte Introductif (Haut de page - 100 à 150 mots)**\
-&#xNAN;_&#x4F;bjectif : Accrocher l'utilisateur, placer le mot-clé principal (H1) et rassurer immédiatement. Le rédacteur devra faire preuve de créativité pour éviter la duplication._
+**Objectif :** Accrocher l'utilisateur, placer le mot-clé principal (H1) et rassurer immédiatement. Le rédacteur devra faire preuve de créativité pour éviter la duplication.
 
 * **H1 :** Mot-clé principal (Type d'équipement + Univers métier).
 * **Phrase 1 (L'accroche métier) :** Intégration naturelle du mot-clé principal et ciblage des exigences spécifiques de l'univers métier.
@@ -170,7 +170,7 @@ Pour gagner du temps et garantir une cohérence SEO sur les 115 pages catégorie
 * **Phrase 3 (L'appel à l'action) :** Invitation à parcourir le catalogue et à utiliser les filtres.
 
 **2. Template du Texte SEO Long (Bas de page - 1500 à 3000 mots)**\
-&#xNAN;_&#x4F;bjectif : Créer un contenu exhaustif pour capter la longue traîne SEO, asseoir l'expertise E-E-A-T d'OROD et développer un champ sémantique riche, sans brider la créativité du rédacteur avec une structure figée._
+**Objectif :** Créer un contenu exhaustif pour capter la longue traîne SEO, asseoir l'expertise E-E-A-T d'OROD et développer un champ sémantique riche, sans brider la créativité du rédacteur avec une structure figée.
 
 * **Volume et densité :** Pour atteindre les **1500 à 3000 mots** sans faire de "remplissage" (fluff), il est impératif de développer en profondeur le champ lexical spécifique à chaque catégorie.
 * **Règle d'or de structuration :** Insérer un sous-titre (H2 ou H3) tous les **70 à 150 mots environ**. Cela permet de maintenir l'attention du lecteur tout en multipliant les points d'entrée SEO.
@@ -179,7 +179,7 @@ Pour gagner du temps et garantir une cohérence SEO sur les 115 pages catégorie
 _🤖 **Astuce de production :** Rédiger des centaines de textes pour les catégories et les fiches produits est un chantier colossal. Cette phase sera **industrialisée via mes outils d'Intelligence Artificielle et mon serveur MCP** connectés à votre ERP Odoo (voir la page_ [_Méthodologie de Déploiement_](../methodologie-mcp.md)_)._
 
 **3. Template de FAQ (Foire Aux Questions)**\
-&#xNAN;_&#x4F;bjectif : Capter les positions "People Also Ask" (Autres questions posées) sur Google et lever les derniers freins à l'achat._
+**Objectif :** Capter les positions "People Also Ask" (Autres questions posées) sur Google et lever les derniers freins à l'achat.
 
 * **Volume attendu :**
   * **6 questions** pour les pages **Catégories**.
