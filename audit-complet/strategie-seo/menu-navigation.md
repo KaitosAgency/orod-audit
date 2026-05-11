@@ -3,17 +3,23 @@ title: "Menu & Navigation"
 ---
 # Menu & Navigation (Arborescence)
 
-## Sémantique et Données Structurées du Menu
+## Sémantique, Accessibilité et Structure HTML du Menu
 
-**Constat :** L'analyse du code source révèle que le menu de navigation n'utilise pas la balise sémantique HTML5 `<nav>`, mais de simples `<div>`. De plus, **aucune donnée structurée de type `SiteNavigationElement`** n'est présente pour aider Google à comprendre l'arborescence du site.
+**Constat :** L'analyse du code source (HTML) révèle plusieurs lacunes concernant la structure du menu :
+* Le menu n'utilise pas la balise sémantique HTML5 `<nav>`, mais est encapsulé dans de simples blocs `<div>`.
+* La structure est très verbeuse, avec une imbrication excessive de `<div>` autour des listes (`<ul>` et `<li>`), ce qui alourdit l'exploration par les robots de Google.
+* Il manque les attributs d'accessibilité (WAI-ARIA) pour indiquer clairement aux moteurs de recherche le comportement des sous-menus.
+* **Aucune donnée structurée de type `SiteNavigationElement`** n'est présente pour aider Google à comprendre l'arborescence globale.
 
 _Figure 4 : Aperçu actuel des Sitelinks sur Google._
 
 **Analyse des Sitelinks actuels :** Bien que Google affiche des sous-liens (Sitelinks), leur sélection est automatique et non maîtrisée. On y trouve des pages pertinentes ("Police Municipale", "Uniformes") mais aussi des pages moins stratégiques ou mal décrites ("Explorez", "Tshirts - Polos" avec une description tronquée sur la newsletter).\
-**Recommandation :**
+**Recommandations pour un menu "10/10" :**
 
-* Envelopper le menu principal dans une balise `<nav role="navigation">`.
-* Ajouter le balisage JSON-LD `SiteNavigationElement` pour lister explicitement les rubriques principales que vous souhaitez voir apparaître dans ces Sitelinks. Cela donne des indications fortes à Google sur les pages réellement importantes de votre arborescence.
+* **Adopter la balise `<nav>` :** Remplacer le bloc principal par une balise `<nav>` avec l'attribut `aria-label="Menu principal"` pour signaler sans ambiguïté la navigation prioritaire.
+* **Alléger le code HTML :** Privilégier une structure claire et directe : listes (`<ul>`), éléments (`<li>`) et liens (`<a>`). Supprimer les blocs `<div>` de mise en page inutiles qui entourent actuellement chaque lien.
+* **Signaler les sous-menus :** Ajouter les attributs `aria-haspopup` et `aria-expanded` sur les rubriques parentes (comme "Univers"). Cela aide Google (particulièrement en Mobile-First) à comprendre qu'il y a une profondeur de contenu derrière ce clic.
+* **Données structurées :** Intégrer un balisage JSON-LD `SiteNavigationElement` afin de lister les rubriques stratégiques et dicter à Google les pages qu'il doit afficher en priorité dans les Sitelinks de recherche.
 
 ## Optimisation des Ancres de Liens (Mots-clés du Menu)
 

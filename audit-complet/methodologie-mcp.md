@@ -12,6 +12,11 @@ Pour garantir un déploiement rapide, exhaustif et sans erreur sur l'ensemble du
 
 Le **MCP (Model Context Protocol)** s'installe directement sur l'ERP Odoo. Une fois en place, nous fixons les permissions exactes en écriture et en lecture. Cela nous permet ensuite de donner un accès sécurisé à mon agent IA, pour qu'il puisse intervenir de manière autonome : créer, modifier ou supprimer du contenu, gérer les fiches produits et leurs métadonnées, ainsi que piloter les pages catégories et le blog.
 
+**Le Choix Technique (OCA vs MuK MCP) :**
+Pour réaliser cette intégration de manière opérationnelle, la solution privilégiée est l'utilisation du module **[MuK MCP](https://apps.odoo.com/apps/modules/19.0/muk_mcp)**. Bien que la communauté *[OCA (Odoo Community Association)](https://github.com/OCA/ai)* développe des briques d'IA très prometteuses (pour l'instant au stade de *Proof of Concept*), le module MuK MCP présente l'avantage d'être *ready-to-use* (prêt à l'emploi). 
+
+Il transforme nativement Odoo en serveur MCP complet et offre une gestion fine de la sécurité : création de clés d'accès dédiées avec des "scopes" (lecture seule ou lecture/écriture). Ainsi, l'IA interagit avec la base de données (ORM) de manière 100% contrôlée et ne peut agir que dans le strict périmètre des droits Odoo (ACL) qui lui ont été accordés. C'est le socle technique le plus robuste à ce jour pour interfacer mon agent avec votre catalogue.
+
 ## Mes 4 piliers d'automatisation pour OROD :
 
 {% stepper %}
