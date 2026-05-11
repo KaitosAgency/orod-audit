@@ -11,6 +11,7 @@ title: Menu & Navigation
 * Le menu n'utilise pas la balise sémantique HTML5 `<nav>`, mais est encapsulé dans de simples blocs `<div>`.
 * La structure est très verbeuse, avec une imbrication excessive de `<div>` autour des listes (`<ul>` et `<li>`), ce qui alourdit l'exploration par les robots de Google.
 * Il manque les attributs d'accessibilité (WAI-ARIA) pour indiquer clairement aux moteurs de recherche le comportement des sous-menus.
+* **Accessibilité de l'image illustrative :** Le crawl a détecté que l'image d'illustration présente dans le méga-menu (`orod-menu-illustration.jpg`) n'a **aucun attribut `alt`**. Or, une image de pure décoration doit obligatoirement posséder un attribut `alt=""` (vide) pour que les lecteurs d'écran et Google l'ignorent correctement.
 * **Aucune donnée structurée de type `SiteNavigationElement`** n'est présente pour aider Google à comprendre l'arborescence globale.
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

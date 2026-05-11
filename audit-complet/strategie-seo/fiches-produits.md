@@ -147,3 +147,23 @@ L'analyse du code source montre que le site utilise déjà un balisage JSON-LD t
 **Recommandation :**
 
 * **Déclencher les étoiles dans la SERP :** C'est le levier CRO/SEO le plus puissant pour une fiche produit. Il faut impérativement intégrer la propriété `AggregateRating` (note moyenne et nombre d'avis) dans le bloc JSON-LD du produit. Afficher des étoiles jaunes dans les résultats Google augmente drastiquement le taux de clic (CTR) et permet de surpasser visuellement les concurrents. Même un petit nombre d'avis (ex: 2 ou 3) suffit pour activer cet affichage.
+
+## Optimisation Technique des Images (Image SEO & Web Perf)
+
+**Constat (Crawl d'un échantillon de fiches produits) :**
+L'analyse approfondie du code source des fiches produits révèle **d'excellentes pratiques déjà en place** grâce au framework technique (Nuxt Image / Shop Invaders) :
+* Les images utilisent le format moderne **WebP** via la balise `<picture>` et `<source>`.
+* Les attributs `srcset` et `sizes` sont générés pour offrir un rendu responsive (mobile/desktop).
+* Le chargement différé (`loading="lazy"`) est natif sur les images.
+* Les **noms de fichiers** sont très bien nommés et reprennent le nom du produit (ex: `580460-medaille-courage-et-devouement...jpg`).
+* Les balises **`alt`** sont bien présentes et renseignées sur les images produits.
+
+**Marge de progression (Pour un SEO 10/10) :**
+
+1. **Prévenir le "Cumulative Layout Shift" (CLS) :**
+   * _Le problème :_ Bien que la balise `<img>` principale possède parfois un attribut `height="500"`, elle **ne possède pas d'attribut `width` explicite** (les dimensions natives de l'image). Sans ces deux attributs déclarés en dur dans le HTML, le navigateur ne peut pas réserver l'espace visuel avant le chargement complet de l'image. Cela provoque des "sauts de page" lors de l'affichage, ce qui pénalise fortement les Core Web Vitals de Google.
+   * _La solution :_ S'assurer que le composant d'image génère toujours les attributs HTML `width="..."` et `height="..."` sur la balise `<img>` finale.
+2. **Affiner la sémantique de l'attribut `alt` :**
+   * _Le constat :_ L'attribut `alt` actuel est la copie stricte du titre produit, incluant la référence en premier (ex: `alt="580460 - medaille courage et devouement..."`).
+   * _La solution :_ Pour Google Images, le texte `alt` doit décrire l'image comme pour un malvoyant. Si l'automatisation le permet, il est préférable de placer le mot-clé principal au début et de retirer la référence (ex: `alt="Médaille courage et dévouement BR Vermeil en boite plastique"`).
+   * _Automatisation via l'IA (Mon approche) :_ Repasser manuellement sur des milliers d'images produit est chronophage. C'est pourquoi j'ai développé mes propres programmes. En donnant des capacités de **Vision par ordinateur à mon Intelligence Artificielle**, elle est capable d'analyser chaque image du catalogue de manière autonome. Elle génère ensuite et injecte automatiquement des balises `alt` et des titres (`title`) parfaitement descriptifs et optimisés pour le SEO, sans aucune intervention humaine.
