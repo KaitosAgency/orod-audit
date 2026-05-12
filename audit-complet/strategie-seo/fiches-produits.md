@@ -1,5 +1,6 @@
 ---
 title: Fiches produits
+description: "Enrichissement des fiches produits avec des données structurées et du contenu expert pour maximiser les ventes."
 ---
 
 # Fiches produits

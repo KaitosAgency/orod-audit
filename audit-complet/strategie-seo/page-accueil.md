@@ -1,5 +1,6 @@
 ---
 title: Optimisation de la Page d'Accueil (SEO & CRO)
+description: "Refonte structurelle de la page d'accueil pour allier performance SEO et optimisation du taux de conversion (CRO)."
 ---
 
 # Page d'Accueil

@@ -1,5 +1,6 @@
 ---
 title: "Stratégie Éditoriale & Blog (Le Tunnel de Vente)"
+description: "Création d'une usine à contenu via un CMS Headless pour capter le trafic d'intention et nourrir l'autorité thématique."
 ---
 **Constat :** Le blog n'est pas qu'un espace d'actualités. C'est le moteur d'acquisition "Haut de Tunnel" (Top of Funnel), le lieu où Google évalue votre **Expertise (E-E-A-T)**, et la source principale utilisée par les Intelligences Artificielles (GEO) pour formuler leurs recommandations.
 

@@ -1,5 +1,6 @@
 ---
 title: Fidélisation & E-mailing (Marketing Automation)
+description: "Mise en place de scénarios de marketing automation pour maximiser la rétention et la valeur à vie (LTV) des clients."
 ---
 
 # Fidélisation & E-mailing (Marketing Automation)

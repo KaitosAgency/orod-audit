@@ -1,5 +1,6 @@
 ---
 title: Expérience Utilisateur (UX) & Identité
+description: "Analyse de l'interface, de la navigation et des éléments de réassurance pour maximiser la confiance et les conversions."
 ---
 
 # Expérience Utilisateur (UX) & Identité

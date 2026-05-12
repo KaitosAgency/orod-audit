@@ -1,5 +1,6 @@
 ---
 title: Menu & Navigation
+description: "Optimisation de l'arborescence et du maillage interne pour faciliter le parcours utilisateur et le crawl de Google."
 ---
 
 # Menu & Navigation

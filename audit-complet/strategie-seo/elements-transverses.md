@@ -1,5 +1,6 @@
 ---
 title: Éléments Transverses & Autorité
+description: "Amélioration des signaux de confiance (E-E-A-T), du footer et des éléments globaux du site pour asseoir l'autorité de la marque."
 ---
 
 # Éléments Transverses & Autorité

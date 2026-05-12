@@ -1,5 +1,6 @@
 ---
 title: Stratégie Off-Site & Netlinking (Construire l'Autorité)
+description: "Acquisition de backlinks de haute autorité pour booster la puissance du domaine (DR) et propulser les pages stratégiques."
 ---
 
 # Stratégie Off-Site & Netlinking (Construire l'Autorité)

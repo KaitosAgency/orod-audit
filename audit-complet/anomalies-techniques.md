@@ -1,5 +1,6 @@
 ---
 title: Anomalies Techniques Critiques
+description: "Identification et correction des freins techniques majeurs (indexation, pagination, robots.txt) qui bloquent le référencement."
 ---
 
 # Anomalies Techniques Critiques

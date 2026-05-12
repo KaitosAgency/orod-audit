@@ -1,5 +1,6 @@
 ---
 title: Pages Univers & Catégories
+description: "Transformation des pages listes en véritables silos sémantiques pour capter le trafic qualifié sur des requêtes génériques."
 ---
 
 # Pages Univers & Catégories

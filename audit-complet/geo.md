@@ -2,6 +2,7 @@
 title: >-
   L'Avenir du Référencement : Préparation au GEO (Generative Engine
   Optimization)
+description: "Anticipation des moteurs de recherche génératifs (SGE, ChatGPT) en structurant les données pour l'Intelligence Artificielle."
 ---
 
 # L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)

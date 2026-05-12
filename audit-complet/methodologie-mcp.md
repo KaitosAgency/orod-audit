@@ -1,5 +1,6 @@
 ---
 title: Méthodologie de Déploiement & Automatisation (Serveur MCP)
+description: "Explication du déploiement automatisé via l'agent IA et le protocole MCP connecté à l'ERP Odoo."
 ---
 
 # Méthodologie de Déploiement & Automatisation (Serveur MCP)

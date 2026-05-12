@@ -1,5 +1,6 @@
 ---
 title: Synergie SEO / SEA (L'Acquisition Hybride)
+description: "Utilisation des campagnes Google Ads comme laboratoire de test pour accélérer et rentabiliser la stratégie SEO."
 ---
 
 # Synergie SEO / SEA (L'Acquisition Hybride)

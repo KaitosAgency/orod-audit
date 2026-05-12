@@ -1,5 +1,6 @@
 ---
 title: "Stratégie SEO"
+description: "Plan d'action global pour le référencement naturel, visant à dominer les résultats de recherche sur le secteur B2B/B2G."
 ---
 # Stratégie SEO
 

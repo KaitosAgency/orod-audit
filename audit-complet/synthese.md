@@ -1,6 +1,6 @@
 ---
 title: Synthèse
-description: Test description
+description: "Vue d'ensemble du plan d'action stratégique et des leviers d'acquisition pour transformer OROD en machine à conversion."
 ---
 
 # Synthèse
