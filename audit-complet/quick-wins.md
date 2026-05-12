@@ -16,7 +16,7 @@ Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'archi
 | **Optimisation Title + Meta Description page d'accueil** | Faible | Élevé | Immédiat | Nul | [Voir les détails](strategie-seo/page-accueil.md) |
 | **Optimisation Title + Meta des pages catégories** | Moyen | Moyen | 1 sem | Nul | [Voir les détails](strategie-seo/pages-univers-categories.md) |
 | **Passage de `og:type=website` à `og:type=product` sur fiches produits** | Faible | Moyen | Immédiat | Nul | [Voir les détails](strategie-seo/fiches-produits.md) |
-| **Mise en avant de Chorus Pro dans les bandeaux de réassurance** | Faible | Élevé | Immédiat | Nul | [Voir les détails](strategie-seo/page-accueil.md) |
+| **Création de contenu sur les fiches produits et pages catégories** | Moyen | Élevé | 2 à 4 sem | Nul | [Voir les détails](strategie-seo/pages-univers-categories.md) |
 | **Lancement campagne one-shot d'avis clients + ajout `AggregateRating` JSON-LD** | Moyen | Élevé | 2 sem | Nul | [Voir E-mailing](fidelisation-emailing.md) / [Fiches Produits](strategie-seo/fiches-produits.md) |
 | **Création du fichier `llms.txt`** | Faible | Moyen | Immédiat | Nul | [Voir les détails](geo.md) |
 | **Correction Open Graph (images partage) accueil + catégories** | Faible | Faible | Immédiat | Nul | [Voir les détails](ux-et-identite.md) |
