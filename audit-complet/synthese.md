@@ -1,5 +1,6 @@
 ---
 title: Synthèse
+description: Test description
 ---
 
 # Synthèse
