@@ -15,11 +15,12 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 
 ## Le Plan de Transformation (Vision 12 mois)
 
-* **Mois 1 : Fondations & Quick Wins**
+* **Mois 1 : Fondations, Quick Wins & Setup IA**
+  * Installation et tests du serveur MCP sur l'environnement de pré-production (déblocage des accès, configuration des permissions).
   * Correction des anomalies bloquantes (robots.txt, pagination).
   * Optimisation de toutes les métadonnées (Title, Meta Description).
   * Collaboration main dans la main avec les équipes techniques pour améliorer l'UX du site (en s'adaptant à leur calendrier).
-  * *Objectif : Débloquer l'indexation, structurer le catalogue et augmenter le taux de conversion immédiat.*
+  * *Objectif : Sécuriser l'infrastructure IA, débloquer l'indexation et augmenter le taux de conversion immédiat.*
 * **Mois 2 à 4 : L'Usine à Contenu (E-commerce & Blog)**
   * Création et rédaction des 115 nouvelles pages catégories et optimisation des ~1200 fiches produits (processus itératif : génération IA + relecture humaine).
   * Déploiement du CMS Headless pour le blog et début de publication intensive (1 article/jour).
