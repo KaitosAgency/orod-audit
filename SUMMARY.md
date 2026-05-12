@@ -14,7 +14,7 @@
   * [Fiches produits](audit-complet/strategie-seo/fiches-produits.md)
   * [Éléments Transverses & Autorité](audit-complet/strategie-seo/elements-transverses.md)
 * [Stratégie Éditoriale & Blog (Le Tunnel de Vente)](audit-complet/strategie-editoriale-et-blog.md)
-* [SEO Programmatique (pSEO) : Conquête Locale Longue Traîne](audit-complet/seo-programmatique-pseo.md)
+* [SEO Programmatique (pSEO) : Conquête de la Longue Traîne](audit-complet/seo-programmatique-pseo.md)
 * [Fidélisation & E-mailing (Marketing Automation)](audit-complet/fidelisation-emailing.md)
 * [L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)](audit-complet/geo.md)
 * [Stratégie Off-Site & Netlinking (Construire l'Autorité)](audit-complet/strategie-off-site.md)
