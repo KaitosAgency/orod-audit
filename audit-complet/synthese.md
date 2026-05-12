@@ -5,39 +5,40 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 
 # Résumé Exécutif
 
-**Le constat business :** Le catalogue OROD est aujourd'hui sous-exploité, une grande partie est invisible aux moteurs de recherche, et la concurrence prend de l'avance. Le site dispose d'une infrastructure e-commerce robuste (Odoo Shop Invaders), mais souffre de lacunes techniques et éditoriales qui brident sa visibilité sur Google et l'empêchent de capter la demande institutionnelle (B2B/B2G) à grande échelle.
+**Le constat business :** Le catalogue OROD est aujourd'hui sous-exploité, une grande partie est invisible aux moteurs de recherche, et la concurrence prend de l'avance. Le site dispose d'une infrastructure e-commerce robuste (Odoo Shop Invaders), mais souffre de lacunes techniques et éditoriales (notamment des pages catégories actuelles vides de contenu, ce qui pénalise fortement le SEO) qui brident sa visibilité sur Google et l'empêchent de capter la demande institutionnelle (B2B/B2G) à grande échelle.
 
 **L'opportunité chiffrée :**
-- **115 nouvelles portes d'entrée Google** grâce à la transformation des filtres en véritables silos SEO.
-- **~10 000 communes ciblables en pSEO** (Police Municipale) pour dominer la longue traîne locale.
-- **Potentiel de +5% à +15% de CA** généré via l'e-mailing B2B automatisé.
-- **20 à 30% de trafic supplémentaire potentiel** à moyen terme grâce à l'optimisation technique et sémantique.
+- **115 nouvelles portes d'entrée Google** grâce à la création de véritables pages catégories riches en contenu (silos SEO).
+- **Domination totale de la SERP (pSEO)** avec des dizaines de milliers de pages ciblées (ex: ~10 000 communes pour la Police Municipale, mais déclinable sur tous les métiers, normes et usages).
+- **Potentiel de +15% à +25% de CA** généré via l'e-mailing B2B automatisé.
+- **Potentiel de doubler voire tripler le trafic organique** d'ici un an grâce à ces techniques d'acquisition massive.
 
 ## Le Plan de Transformation (Vision 12 mois)
 
-* **Mois 1 : Fondations & Quick Wins**
+* **Mois 1 : Fondations, Quick Wins & Contenu E-commerce**
   * Correction des anomalies bloquantes (robots.txt, pagination).
-  * Optimisation de la réassurance (Chorus Pro, avis clients).
-  * *Objectif : Débloquer l'indexation et augmenter le taux de conversion immédiat.*
-* **Mois 2-3 : L'Usine à Contenu & Silos**
-  * Création des 115 pages catégories optimisées.
-  * Déploiement du CMS Headless pour le blog et début de publication (1 article/jour).
-  * *Objectif : Saturer l'espace sémantique et asseoir l'autorité (E-E-A-T).*
+  * Optimisation de toutes les métadonnées (Title, Meta Description).
+  * Création et rédaction des 115 nouvelles pages catégories et optimisation des fiches produits.
+  * Collaboration main dans la main avec les équipes techniques pour améliorer l'UX du site (en s'adaptant à leur calendrier).
+  * *Objectif : Débloquer l'indexation, structurer le catalogue et augmenter le taux de conversion immédiat.*
+* **Mois 2-3 : L'Usine à Contenu (Blog)**
+  * Déploiement du CMS Headless pour le blog et début de publication intensive (1 article/jour).
+  * *Objectif : Saturer l'espace sémantique informationnel et asseoir l'autorité (E-E-A-T).*
 * **Mois 4-6 : Acquisition Massive (pSEO)**
-  * Déploiement du micro-service pSEO (approche "Test & Scale").
-  * Lancement des campagnes SEA en synergie.
-  * *Objectif : Capter la demande locale et les requêtes spécifiques (normes, métiers).*
-* **Mois 6-12 : Autorité & Consolidation**
-  * Campagnes de relations presse et partenariats éditoriaux (Netlinking).
+  * Déploiement du micro-service pSEO (approche "Test & Scale") sur l'ensemble des matrices (Métier × Produit × Usage × Saison).
+  * *Objectif : Capter la demande locale et les requêtes ultra-spécifiques.*
+* **Mois 6-12 : Autorité, Synergie & Consolidation**
+  * Lancement des campagnes SEA en synergie sur les zones pSEO validées.
+  * Campagnes de relations presse et partenariats éditoriaux (Netlinking / Backlinks).
   * Optimisation continue pour les IA (GEO).
-  * *Objectif : Devenir le leader incontesté sur les moteurs de recherche et les IA.*
+  * *Objectif : Devenir le leader incontesté sur les moteurs de recherche et écraser la concurrence.*
 
 ## Les 4 Piliers Stratégiques
 
-1. **Fondations Techniques & Conversion (CRO) :** Rendre le site parfaitement lisible pour Google et maximiser la confiance des acheteurs institutionnels (E-E-A-T, Chorus Pro, JSON-LD).
-2. **L'Usine à Contenu (On-Site & Blog) :** Transformer le catalogue en silos sémantiques et créer un blog puissant pour capter le trafic d'intention.
-3. **Acquisition Massive (SEO Programmatique) :** Générer automatiquement des milliers de pages d'atterrissage ultra-ciblées (villes, métiers, normes).
-4. **Autorité & Synergie (Off-Site & SEA) :** Booster la puissance du domaine via des partenariats éditoriaux et utiliser Google Ads comme accélérateur.
+1. **Fondations Techniques & Conversion (CRO) :** Rendre le site parfaitement lisible pour Google, travailler l'UX avec les équipes techniques, et maximiser la confiance des acheteurs institutionnels (E-E-A-T, Chorus Pro, JSON-LD).
+2. **L'Usine à Contenu (On-Site & Blog) :** Remplir les pages catégories vides pour en faire des silos sémantiques et créer un blog puissant pour capter le trafic d'intention.
+3. **Acquisition Massive (SEO Programmatique) :** Générer automatiquement des milliers de pages d'atterrissage ultra-ciblées pour une domination totale des résultats de recherche.
+4. **Autorité & Synergie (Off-Site & SEA) :** Booster la puissance du domaine via des backlinks de qualité et utiliser Google Ads comme accélérateur une fois les fondations posées.
 
 ## L'Avantage Concurrentiel : L'Automatisation par l'IA (MCP)
 
