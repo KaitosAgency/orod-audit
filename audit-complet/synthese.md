@@ -33,7 +33,7 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
   * Optimisation continue pour les IA (GEO).
   * *Objectif : Devenir le leader incontesté sur les moteurs de recherche et écraser la concurrence.*
 
-> 💡 **Fil Rouge (Mois 2 à 7) :** Collaboration continue avec les équipes techniques pour la refonte UX du site (~15 jours de développement), planifiée selon leur disponibilité pour maximiser la conversion avant le pic de trafic.
+> 💡 **Fil Rouge (Mois 2 à 7) :** Refonte UX du site (~15 jours de développement) pour maximiser la conversion avant le pic de trafic. Je suis en capacité de réaliser ces intégrations techniques moi-même si les accès au code source (Odoo/Shop Invaders) me sont fournis, ou de collaborer avec vos équipes selon leur disponibilité.
 
 ## Les 4 Piliers Stratégiques
 
