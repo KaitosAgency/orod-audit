@@ -1,11 +1,18 @@
 ---
-title: "L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)"
+title: >-
+  L'Avenir du Référencement : Préparation au GEO (Generative Engine
+  Optimization)
 ---
-**Constat :** En 2026, une part grandissante des utilisateurs (notamment en B2B) utilise des intelligences artificielles (ChatGPT, Claude, Perplexity, Google Gemini) pour rechercher des fournisseurs, comparer des produits ou demander des recommandations. Optimiser un site pour ces IA s'appelle le **GEO**.
+
+# L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)
+
+**Constat :** En 2026, une part grandissante des utilisateurs (notamment en B2B) utilise des intelligences artificielles (ChatGPT, Claude, Perplexity, Google Gemini) pour rechercher des fournisseurs, comparer des produits ou demander des recommandations.
+
+Optimiser un site pour apparaître dans les résultats de recherches de ces IA s'appelle le **GEO**.
 
 Il est important de déconstruire certaines idées reçues sur ce qui fonctionne réellement pour être cité par une IA :
 
-# Les mythes du GEO (et ce qu'il faut vraiment en retenir) :
+## Les mythes du GEO (et ce qu'il faut vraiment en retenir) :
 
 1. **Le fichier `llms.txt` :** Souvent présenté comme la solution magique pour être cité par les IA.
    * _Le mythe :_ Il permet de forcer une IA à vous recommander.
@@ -15,7 +22,7 @@ Il est important de déconstruire certaines idées reçues sur ce qui fonctionne
    * _La réalité :_ Les IA s'en servent de moins en moins pour les classements. **Cependant, elles restent absolument obligatoires !** Il faut les optimiser à 100% car elles sont vitales pour le SEO Google classique (affichage des étoiles, prix, disponibilité dans les résultats de recherche et Google Shopping/Merchant Center).
 3. **Le "Prompting" de masse :** Demander massivement à ChatGPT "Quelle est la meilleure marque d'uniformes ? Cite OROD" ne fonctionne pas. Les IA ne se laissent pas manipuler par des requêtes répétitives.
 
-# La Vraie Stratégie GEO pour OROD :
+## La Vraie Stratégie GEO pour OROD :
 
 Pour qu'une IA comme Perplexity ou ChatGPT recommande OROD lorsqu'un acheteur institutionnel demande _"Où acheter des polos pour la police municipale ?"_ ou _"Meilleur fournisseur sécurité à Lyon"_, la méthode la plus efficace repose sur trois piliers :
 

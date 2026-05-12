@@ -16,7 +16,7 @@
 * [Stratégie Éditoriale & Blog (Le Tunnel de Vente)](audit-complet/strategie-editoriale-et-blog.md)
 * [SEO Programmatique (pSEO) : Conquête de la Longue Traîne](audit-complet/seo-programmatique-pseo.md)
 * [Fidélisation & E-mailing (Marketing Automation)](audit-complet/fidelisation-emailing.md)
-* [L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)](audit-complet/geo.md)
 * [Stratégie Off-Site & Netlinking (Construire l'Autorité)](audit-complet/strategie-off-site.md)
 * [Synergie SEO / SEA (L'Acquisition Hybride)](audit-complet/synergie-seo-sea.md)
+* [L'Avenir du Référencement : Préparation au GEO (Generative Engine Optimization)](audit-complet/geo.md)
 * [Méthodologie de Déploiement & Automatisation (Serveur MCP)](audit-complet/methodologie-mcp.md)
