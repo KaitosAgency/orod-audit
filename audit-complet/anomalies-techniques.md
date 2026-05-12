@@ -39,3 +39,14 @@ Sitemap: https://orod.fr/sitemap.xml
   ⚠️ **Attention : même si ces pages possèdent une balise `canonical` vers la catégorie mère, cela ne suffit pas.**\
   Pour lire la balise canonical, Google doit d'abord télécharger la page, ce qui épuise inutilement son budget de crawl. Le `Disallow: /*?*...` dans le robots.txt lui interdit carrément l'accès, forçant le robot à ignorer ces pages inutiles pour se concentrer sur le contenu à forte valeur ajoutée.
 * **Découverte facilitée :** La ligne `Sitemap` indique immédiatement aux moteurs de recherche (et aux IA) où trouver le plan officiel de votre site pour une indexation rapide.
+
+## Erreur d'URL Canonique sur la Pagination
+
+**Constat :** L'analyse des pages catégories paginées (ex: `https://orod.fr/uniformes?page=3`) révèle une **erreur SEO majeure**. Actuellement, la balise canonical de la page 3 pointe vers la page 1 (`<link rel="canonical" href="https://orod.fr/uniformes">`).
+
+**Impact :** En faisant cela, on indique à Google que la page 3 est un simple doublon de la page 1 et qu'il ne faut pas l'indexer. Conséquence directe : Google n'explorera et n'indexera **jamais** les produits qui se trouvent sur les pages 2, 3, 4, etc. Une grande partie du catalogue profond est donc invisible pour les moteurs de recherche.
+
+**Recommandation :**
+Il faut modifier le code pour qu'une page paginée pointe vers **elle-même**. La balise canonical de la page 3 doit être `<link rel="canonical" href="https://orod.fr/uniformes?page=3">`. C'est vital pour l'indexation profonde du catalogue.
+
+*Pour plus de détails sur la gestion de la pagination et du scroll infini, consultez la section dédiée dans [Pages Univers & Catégories](strategie-seo/pages-univers-categories.md).*
