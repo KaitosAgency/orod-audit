@@ -20,14 +20,14 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
   * Optimisation de toutes les métadonnées (Title, Meta Description).
   * Collaboration main dans la main avec les équipes techniques pour améliorer l'UX du site (en s'adaptant à leur calendrier).
   * *Objectif : Débloquer l'indexation, structurer le catalogue et augmenter le taux de conversion immédiat.*
-* **Mois 2-3 : L'Usine à Contenu (E-commerce & Blog)**
-  * Création et rédaction des 115 nouvelles pages catégories et optimisation des fiches produits.
+* **Mois 2 à 4 : L'Usine à Contenu (E-commerce & Blog)**
+  * Création et rédaction des 115 nouvelles pages catégories et optimisation des ~1200 fiches produits (processus itératif : génération IA + relecture humaine).
   * Déploiement du CMS Headless pour le blog et début de publication intensive (1 article/jour).
   * *Objectif : Saturer l'espace sémantique informationnel et asseoir l'autorité (E-E-A-T).*
-* **Mois 4-6 : Acquisition Massive (pSEO)**
+* **Mois 5-7 : Acquisition Massive (pSEO)**
   * Déploiement du micro-service pSEO (approche "Test & Scale") sur l'ensemble des matrices (Métier × Produit × Usage × Saison).
   * *Objectif : Capter la demande locale et les requêtes ultra-spécifiques.*
-* **Mois 6-12 : Autorité, Synergie & Consolidation**
+* **Mois 8-12 : Autorité, Synergie & Consolidation**
   * Lancement des campagnes SEA en synergie sur les zones pSEO validées.
   * Campagnes de relations presse et partenariats éditoriaux (Netlinking / Backlinks).
   * Optimisation continue pour les IA (GEO).
