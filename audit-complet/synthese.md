@@ -68,5 +68,13 @@ Déployer cette stratégie manuellement prendrait des années et un budget colos
 
 Cette technologie permet à mon agent IA d'interagir de manière autonome et sécurisée avec votre catalogue pour rédiger des centaines de textes SEO, optimiser les métadonnées, générer les pages pSEO et piloter l'animation commerciale. C'est la garantie d'une exécution rapide, exhaustive et à fort ROI.
 
-👉 **Prochaine étape :** Découvrez les actions immédiates sur la page [Quick Wins](quick-wins.md), ou consultez la [Proposition d'Accompagnement (Budget & ROI)](proposition-commerciale.md) détaillée.
+👉 **Prochaine étape :** Découvrez les actions immédiates sur la page [Quick Wins](quick-wins.md).
+
+***
+
+## Contact & Accompagnement
+
+**Valentin LORIOT**
+* Email : [contact@kaitos.agency](mailto:contact@kaitos.agency)
+* WhatsApp : 06 63 55 33 61
 

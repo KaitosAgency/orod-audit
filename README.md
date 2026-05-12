@@ -46,3 +46,11 @@ Si vous supervisez la création et la validation des contenus :
 La force de ce plan de transformation réside dans son exécution. Là où une agence classique mobiliserait des dizaines de rédacteurs pendant des mois, notre approche s'appuie sur le déploiement d'un serveur **MCP (Model Context Protocol)**. 
 
 Cette infrastructure permet à des agents IA d'interagir directement avec votre catalogue pour industrialiser la création de contenu et le SEO programmatique, garantissant une frappe massive, rapide et d'une précision chirurgicale sur votre marché.
+
+***
+
+## Contact & Accompagnement
+
+**Valentin LORIOT**
+* Email : [contact@kaitos.agency](mailto:contact@kaitos.agency)
+* WhatsApp : 06 63 55 33 61
