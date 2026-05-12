@@ -7,13 +7,13 @@ description: "Lignes directrices, templates et calendrier pour l'équipe éditor
 
 Cette vue est destinée aux équipes en charge de la création de contenu (rédacteurs, responsables communication). Elle définit le ton, les formats attendus et le rythme de publication.
 
-## ✍️ Lignes Directrices Éditoriales
+## Lignes Directrices Éditoriales
 
 - **Ton de voix** : Professionnel, expert, rassurant (B2B/B2G). Éviter le jargon inutile mais utiliser les termes techniques précis du métier (normes, matériaux).
 - **Cible** : Acheteurs institutionnels, responsables achats, mairies (Police Municipale), professionnels de la sécurité.
 - **E-E-A-T** : Toujours mettre en avant l'expertise d'OROD (années d'expérience, conformité aux normes, acceptation Chorus Pro). Utiliser de vrais auteurs pour le blog (pas de "faux experts") avec une page auteur dédiée et un lien vers leur profil LinkedIn (`sameAs`).
 
-## ✅ Checklist Éditoriale
+## Checklist Éditoriale
 
 ### Pages Catégories E-commerce (Les 115 Silos)
 - [ ] Rédiger un texte d'introduction (Hero) impactant sous le H1 (possibilité de texte plus long avec une troncature UX `line-clamp` pour ne pas repousser les produits).
@@ -46,6 +46,6 @@ Cette vue est destinée aux équipes en charge de la création de contenu (réda
 - [ ] Rédiger les campagnes promotionnelles (Hero Banner) en batching.
 - [ ] *Détails : [Fidélisation & E-mailing](fidelisation-emailing.md)*
 
-## 📅 Organisation & Batching
+## Organisation & Batching
 
 Pour tenir le rythme, l'approche recommandée est le **batching** (production par lots) couplée à l'assistance de l'IA (via le serveur MCP) pour la génération des premiers jets, qui seront ensuite validés et enrichis par l'équipe éditoriale.

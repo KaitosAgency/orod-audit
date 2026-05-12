@@ -7,7 +7,7 @@ description: "Chantiers techniques, architecture et checklist d'implémentation 
 
 Cette vue est destinée aux équipes techniques responsables de l'implémentation. Elle liste les chantiers prioritaires, les évolutions d'architecture et les points de vigilance.
 
-## 🏗️ Architecture Cible
+## Architecture Cible
 
 L'objectif est d'évoluer vers une architecture composable et automatisée :
 - **Core E-commerce** : Odoo Shop Invaders (existant).
@@ -15,7 +15,7 @@ L'objectif est d'évoluer vers une architecture composable et automatisée :
 - **Acquisition pSEO** : Micro-service dédié (ne pas héberger les dizaines de milliers de pages locales dans le blog) avec son propre sitemap (`sitemap-local.xml`).
 - **Automatisation IA** : Serveur MCP (Model Context Protocol) connecté à Odoo, Klaviyo et au CMS Headless. Il est explicitement recommandé d'utiliser le module **MuK MCP** sur Odoo (plutôt que des briques OCA en PoC).
 
-## ✅ Checklist Technique
+## Checklist Technique
 
 ### Anomalies Critiques & Crawl (Priorité Haute)
 - [ ] Configurer le `robots.txt` : `Disallow` sur les facettes (`univers`, `taille`, `couleur`, `prix`), `/account`, `/cart`, `/checkout`, `/api/`. Déclarer le `Sitemap` officiel.
@@ -46,7 +46,7 @@ L'objectif est d'évoluer vers une architecture composable et automatisée :
 - [ ] Connecter le serveur MCP officiel de Klaviyo pour l'automatisation de l'e-mailing.
 - [ ] *Détails : [Méthodologie de Déploiement & Automatisation (MCP)](methodologie-mcp.md)*
 
-## ⚠️ Risques & Points de Vigilance
+## Risques & Points de Vigilance
 
 - **Budget Crawl** : Ne pas laisser Googlebot s'épuiser sur les URLs à facettes ou le tunnel de commande (spider trap).
 - **Sécurité MCP** : S'assurer que l'agent IA dispose de permissions strictement limitées (moindre privilège) lors de ses interactions avec l'ERP.

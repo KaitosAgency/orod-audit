@@ -7,20 +7,20 @@ description: "Feuille de route et leviers d'acquisition pour la Direction Market
 
 Cette vue est conçue pour les profils décisionnaires en marketing. Elle résume les leviers d'acquisition, les KPIs à suivre et la feuille de route globale.
 
-## 🎯 Les 4 Piliers de la Stratégie
+## Les 4 Piliers de la Stratégie
 
 1. **Fondations Techniques & CRO** : Assurer que le site convertit le trafic et est lisible par Google.
 2. **L'Usine à Contenu** : Créer des silos sémantiques et un blog pour capter l'intention de recherche.
 3. **Acquisition Massive (pSEO)** : Déployer des milliers de pages locales et spécifiques.
 4. **Autorité & Synergie** : Booster la notoriété via le Netlinking et le SEA.
 
-👉 *Pour la vision business globale, consultez le [Résumé Exécutif](synthese.md).*
+*Pour la vision business globale, consultez le [Résumé Exécutif](synthese.md).*
 
-## 🚀 Point de départ opérationnel
+## Point de départ opérationnel
 
 Pour démarrer immédiatement, consultez la page des **[Quick Wins](quick-wins.md)**. Elle liste les actions du Mois 1 à fort impact et faible effort pour générer des résultats rapides avant d'entamer les chantiers plus lourds.
 
-## ✅ Checklist d'Acquisition
+## Checklist d'Acquisition
 
 ### SEO Classique (On-Site)
 - [ ] Valider la nouvelle arborescence en silos (115 catégories).
@@ -56,7 +56,7 @@ Pour démarrer immédiatement, consultez la page des **[Quick Wins](quick-wins.m
 - [ ] Intégrer les mentions de marque et l'expertise dans les contenus pour être cité par ChatGPT/Perplexity.
 - [ ] *Détails : [GEO (Generative Engine Optimization)](geo.md)*
 
-## 📊 KPIs à Suivre
+## KPIs à Suivre
 
 - **Trafic Organique Non-Marque** : Mesure l'efficacité des silos et du pSEO.
 - **Taux de Conversion (B2B/B2G)** : Impact des optimisations CRO et de la réassurance Chorus Pro.
