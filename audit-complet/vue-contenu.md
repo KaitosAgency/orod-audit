@@ -24,7 +24,6 @@ Cette vue est destinée aux équipes en charge de la création de contenu (réda
 ### Fiches Produits
 - [ ] S'assurer que les descriptions produits sont uniques (éviter le duplicate content fournisseur).
 - [ ] Structurer la page avec un texte SEO de **300 à 500 mots (dépliable)** en bas de page.
-- [ ] Intégrer des vidéos de démonstration (qui seront balisées avec `VideoObject`).
 - [ ] Utiliser un menu d'ancres interne (Description / Avis / Specs / Livraison).
 - [ ] Optimiser les attributs `alt` des images avec des descriptions claires (ex: "Polo Police Municipale manches courtes").
 - [ ] *Détails : [Fiches produits](strategie-seo/fiches-produits.md)*
