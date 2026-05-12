@@ -45,9 +45,9 @@ Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'archi
 * 👉 [Voir l'optimisation des fiches produits](strategie-seo/fiches-produits.md)
 
 ### 6. Création de contenu sur les fiches produits et pages catégories
-* **Effort :** Moyen
-* **Impact :** Élevé
-* **Délai :** 2 à 4 semaines
+* **Effort :** Élevé
+* **Impact :** Très Élevé
+* **Délai :** 3 mois (processus itératif)
 * **Risque :** Nul
 * 👉 [Voir la stratégie de contenu](strategie-seo/pages-univers-categories.md)
 
@@ -72,4 +72,4 @@ Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'archi
 * **Risque :** Nul
 * 👉 [Voir UX et Identité](ux-et-identite.md)
 
-> 💡 **Estimation globale :** Toutes ces actions peuvent être exécutées en 2 à 4 semaines, posant des bases saines avant d'entamer les chantiers plus lourds (pSEO, refonte des silos).
+> 💡 **Estimation globale :** À l'exception de la création de contenu (qui s'étalera sur 3 mois), toutes ces actions techniques peuvent être exécutées en 2 à 4 semaines, posant des bases saines avant d'entamer les chantiers plus lourds (pSEO, refonte des silos).
