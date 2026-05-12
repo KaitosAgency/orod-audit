@@ -34,7 +34,7 @@ Il transforme nativement Odoo en serveur MCP complet et offre une gestion fine d
 
 * _Le processus :_ Je développe un micro-service Headless sur-mesure dédié exclusivement aux pages transactionnelles pSEO (Villes, Métiers, Normes).
 * _L'intégration :_ Mon serveur MCP croise votre catalogue Odoo avec des bases de données externes (Villes de France, API Google Places) pour générer des milliers de Landing Pages hyper-ciblées.
-* _La sécurité (Test & Scale) :_ Le déploiement suit la même logique que dans la section [SEO Programmatique](seo-programmatique-pseo.md) : lots pilotes (ex. 500 à 1 000 pages), analyse dans la Search Console, puis publication par grappes (2 000 à 10 000 pages) une fois la qualité technique et éditoriale validée — sans plafond rigide quotidien si le serveur et le contenu tiennent la charge.
+* _La sécurité (Test & Scale) :_ Le système est programmé pour déployer les pages par lots itératifs ("Test & Scale"), en validant d'abord l'indexation sur un petit volume avant d'ouvrir les vannes, afin de respecter le budget de crawl de Google et d'éviter toute pénalité algorithmique.
 {% endstep %}
 
 {% step %}

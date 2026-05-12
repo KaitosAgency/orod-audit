@@ -13,8 +13,6 @@ Même si OROD est un e-commerce national sans boutique physique dans chaque vill
 
 Google pénalise lourdement les pages générées automatiquement où seul le nom de la ville change (Doorway Pages). Pour que le pSEO fonctionne en 2026, **chaque page doit apporter une valeur unique à l'utilisateur**. Il ne s'agit pas de faire croire que vous avez un magasin physique à Lyon si ce n'est pas le cas, mais de créer une page "Service de livraison et fourniture pour la région de Lyon".
 
-**Cible géographique (pertinence avant volume) :** Produire une page pour chacune des ~35 000 communes françaises est rarement pertinent pour une offre centrée sur la **police municipale** et peut diluer la qualité perçue. Il est recommandé de **prioriser d'abord les communes disposant d'une police municipale** (ordre de grandeur couramment cité : environ **10 000** communes — chiffre à caler sur les statistiques officielles / base de données utilisée). Les autres communes peuvent être exclues du premier déploiement ou traitées dans un second temps si l'intention de recherche locale le justifie.
-
 ## Gabarit des Pages "Hubs" (Régions & Départements)
 
 Ces pages servent de "routeurs" pour distribuer le jus SEO vers les villes, mais elles peuvent aussi se positionner sur des requêtes plus larges (ex: "Fournisseur police municipale Île-de-France").
@@ -54,7 +52,7 @@ C'est ici que se fait la conversion. Le template doit mixer des éléments fixes
 
 Il est **strictement déconseillé d'utiliser le Blog** pour héberger ces pages locales.
 
-* _Pourquoi éviter le blog ?_ Le blog est conçu pour l'E-E-A-T, l'informationnel et l'actualité (flux chronologique). Injecter des dizaines de milliers de pages locales type "ville" dans le blog va totalement diluer votre autorité thématique, polluer l'expérience utilisateur, et envoyer un signal de "spam" à Google.
+* _Pourquoi éviter le blog ?_ Le blog est conçu pour l'E-E-A-T, l'informationnel et l'actualité (flux chronologique). Injecter 10 000 pages de villes dans le blog va totalement diluer votre autorité thématique, polluer l'expérience utilisateur, et envoyer un signal de "spam" à Google.
 * _La solution : Les Pages Hiérarchiques (Custom Type)._ Ces pages sont de nature "Transactionnelle/Navigationnelle". Elles doivent vivre dans leur propre écosystème.
 
 **Comment l'intégrer avec votre configuration (Odoo + Headless) ?**\
@@ -62,7 +60,7 @@ Puisque j'ai déjà recommandé un CMS Headless (Strapi, Storyblok, etc.) pour l
 
 1. **Dans le CMS Headless :** Créer une collection `Zone d'intervention`.
 2. **Routage (Frontend Nuxt.js) :** Le frontend va lire cette collection et générer des URLs propres et hiérarchiques : `/fournisseur-equipement-police/[region]/[ville]`.
-3. **L'alternative "Tool Sur-Mesure" (Développement Interne) :** Si le volume devient trop massif pour le CMS Headless classique (gérer des dizaines de milliers d'entrées ville peut ralentir l'interface d'administration de certains CMS), **j'ai la capacité de développer en interne un outil headless dédié**. Il s'agirait d'un micro-service sur-mesure (ex: en FastAPI ou Node.js) doté de sa propre base de données légère. Ce micro-service ne fera qu'une chose : servir les pages pSEO au frontend Nuxt.js via une API ultra-rapide. Mon serveur MCP viendrait alors peupler la base de données de ce micro-service.
+3. **L'alternative "Tool Sur-Mesure" (Développement Interne) :** Si le volume devient trop massif pour le CMS Headless classique (gérer 10 000 à 35 000 entrées peut ralentir l'interface d'administration de certains CMS), **j'ai la capacité de développer en interne un outil headless dédié**. Il s'agirait d'un micro-service sur-mesure (ex: en FastAPI ou Node.js) doté de sa propre base de données légère. Ce micro-service ne fera qu'une chose : servir les pages pSEO au frontend Nuxt.js via une API ultra-rapide. Mon serveur MCP viendrait alors peupler la base de données de ce micro-service.
 
 ## Maillage Interne du pSEO
 
@@ -74,13 +72,13 @@ Le plus grand défi du pSEO est de faire crawler et indexer ces milliers de page
 
 ## L'Automatisation & Le Rythme de Déploiement (Le rôle du MCP)
 
-C'est ici que mon architecture technique prend tout son sens. Il est impossible de rédiger manuellement des milliers de pages locales une par une.
+C'est ici que mon architecture technique prend tout son sens. Il est impossible de rédiger des milliers de pages villes manuellement.
 
-Mon serveur se connectera à une **liste de communes cibles** (en pratique : priorité aux communes avec police municipale, voir section « Cible géographique » ci-dessus) et à des bases de référence. Pour chaque ville cible, l'IA générera le contenu dynamique (introduction, FAQ) en s'assurant d'un taux de similarité très faible entre les pages.
+Mon serveur se connectera à une base de données des communes françaises. **Attention :** L'objectif n'est pas de générer aveuglément 35 000 pages (beaucoup de communes ont moins de 200 habitants et aucune Police Municipale). Nous ciblerons en priorité **les ~10 000 communes disposant d'une Police Municipale** (données du Ministère de l'Intérieur) pour garantir une pertinence maximale et éviter de créer des "Doorway Pages" inutiles. Pour chaque ville cible, l'IA générera le contenu dynamique (introduction, FAQ) en s'assurant d'un taux de similarité très faible entre les pages.
 
 **Le Rythme de Publication (La stratégie du "Test & Scale") :**
 
-* **Le danger du "Big Bang" sans filet :** Publier l'ensemble du volume cible d'un coup sans tester la réaction de Google est risqué. Si le contenu est jugé trop répétitif (Thin Content) ou si le serveur ralentit sous le poids du crawl de Googlebot, cela peut déclencher des filtres anti-spam.
+* **Le danger du "Big Bang" sans filet :** Publier 10 000 pages d'un coup sans tester la réaction de Google est risqué. Si le contenu est jugé trop répétitif (Thin Content) ou si le serveur ralentit sous le poids du crawl de Googlebot, cela peut déclencher des filtres anti-spam.
 * **L'approche "Test & Scale" (Déploiement Massif Sécurisé) :** Contrairement aux idées reçues, si la qualité technique et sémantique est au rendez-vous, **vous n'êtes pas limité à 100 ou 200 pages par jour**. De grands sites déploient des milliers de pages simultanément. La méthode recommandée est itérative :
   1. **Phase 1 (Le Test) :** Déploiement d'un premier lot de 500 à 1 000 pages (ex: une région complète).
   2. **Phase 2 (L'Analyse) :** Observation via la Google Search Console. Si Google explore et indexe rapidement ces pages sans les bloquer dans l'onglet *"Détectée, actuellement non indexée"*, cela valide la qualité de notre template et l'autorité du domaine.
