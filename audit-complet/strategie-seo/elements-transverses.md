@@ -1,9 +1,15 @@
 ---
-title: "Éléments Transverses & Autorité"
+title: Éléments Transverses & Autorité
 ---
-# Le Footer (Maillage Interne & E-E-A-T)
 
-**Constat :** Actuellement, le footer (pied de page) est sous-exploité. Il contient principalement des liens légaux, un accès au compte client très basique, et un lien direct vers un catalogue PDF. Il manque cruellement de liens stratégiques pour le SEO (pSEO, Blog) et d'éléments de réassurance.\
+# Éléments Transverses & Autorité
+
+## Le Footer (Maillage Interne & E-E-A-T)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+**Constat :** Actuellement, le footer (pied de page) est sous-exploité. Il contient principalement des liens légaux, un accès au compte client très basique, et un lien direct vers un catalogue PDF. Il manque cruellement de liens stratégiques pour le SEO (pSEO, Blog) et d'éléments de réassurance.
+
 **Recommandations :**
 
 * **Colonne "Nos Univers" (Boost SEO E-commerce) :** Le footer est présent sur _toutes_ les pages du site. C'est l'endroit idéal pour faire du maillage interne vers les pages les plus importantes. Ajouter une colonne listant les catégories phares (ex: _Équipement Police Municipale, Uniformes ASVP, Matériel Sapeurs-Pompiers_). Cela enverra un "jus SEO" (PageRank) massif vers ces pages stratégiques.
@@ -21,9 +27,10 @@ title: "Éléments Transverses & Autorité"
   * _Colonne 5 : Espace Client & Légal._ (Mon compte, Suivi de commande, Retours, CGV, Mentions légales).
 * **Gestion du Catalogue PDF :** Au lieu de faire un lien direct vers le PDF du catalogue Pompiers dans le footer, faire un lien vers une page "Télécharger nos catalogues". Sur cette page, demander l'adresse e-mail en échange du téléchargement (génération de leads / CRO).
 
-# Pages Institutionnelles (Qui sommes-nous & Contact)
+## Pages Institutionnelles (Qui sommes-nous & Contact)
 
-**Constat :** Les moteurs de recherche classiques (Google) et les nouvelles Intelligences Artificielles (ChatGPT, Perplexity) accordent une importance capitale à l'identité de l'entreprise derrière un site e-commerce. C'est le concept de l'E-E-A-T (Expertise, Expérience, Autorité, Confiance).\
+**Constat :** Les moteurs de recherche classiques (Google) et les nouvelles Intelligences Artificielles (ChatGPT, Perplexity) accordent une importance capitale à l'identité de l'entreprise derrière un site e-commerce. C'est le concept de l'E-E-A-T (Expertise, Expérience, Autorité, Confiance).
+
 **L'enjeu LLM (GEO) :** Lorsqu'une IA doit recommander un fournisseur de matériel tactique, elle "lit" en priorité les pages "À propos", "Mentions Légales" et "Contact" pour vérifier la légitimité, l'ancienneté et l'ancrage physique de l'entreprise. Un site sans page "Qui sommes-nous" détaillée est souvent considéré comme suspect ou "dropshipping" par les algorithmes, ce qui l'exclut d'office des recommandations.
 
 **Recommandations pour la page "Qui sommes-nous" :**
@@ -41,9 +48,10 @@ title: "Éléments Transverses & Autorité"
 * **Balisage JSON-LD (`ContactPage` & `LocalBusiness`) :** C'est ici qu'il faut "nourrir" les algorithmes avec vos coordonnées exactes. Intégrer un schéma `ContactPage` couplé à `Organization` (avec la propriété `contactPoint` listant le téléphone, l'e-mail, les langues parlées et les horaires du service client). Si vous possédez des locaux physiques recevant des clients B2B, ajoutez le schéma `LocalBusiness` avec l'adresse postale complète. Cela favorise l'apparition de vos coordonnées directement dans les résultats Google et valide définitivement votre ancrage physique pour l'E-E-A-T.
 * **⚠️ Alerte SEO (Redirection 301) :** Si vous modifiez l'URL de `/contactez-nous` vers `/contact`, il est **strictement obligatoire** de mettre en place une redirection permanente (301) de l'ancienne URL vers la nouvelle. Sans cela, tous les liens existants (dans des e-mails, sur d'autres sites, ou déjà indexés par Google) renverront vers une page d'erreur 404, ce qui dégraderait l'expérience utilisateur et le SEO.
 
-# Autorité de Marque (Knowledge Graph & Wikidata)
+## Autorité de Marque (Knowledge Graph & Wikidata)
 
-**Constat :** Pour asseoir son autorité (E-E-A-T) et rassurer à la fois les utilisateurs et les algorithmes, OROD doit exister en tant qu'"Entité" reconnue sur le web.\
+**Constat :** Pour asseoir son autorité (E-E-A-T) et rassurer à la fois les utilisateurs et les algorithmes, OROD doit exister en tant qu'"Entité" reconnue sur le web.
+
 **Recommandations :**
 
 * **Google Knowledge Panel :** Revendiquer et optimiser le "Knowledge Panel" (l'encart d'information à droite dans les résultats de recherche Google lorsqu'on tape "OROD"). Il faut y lier tous les réseaux sociaux officiels (LinkedIn, Facebook, Instagram).

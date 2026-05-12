@@ -6,7 +6,7 @@ title: Optimisation de la Page d'Accueil (SEO & CRO)
 
 ### Optimisation des Métadonnées (Title & Description)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Constat sur la page d'accueil actuelle :**
 

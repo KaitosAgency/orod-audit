@@ -35,7 +35,7 @@ title: Pages Univers & Catégories
 
 **Constat :** Le site possède bien des pages "Univers" propres (ex: `/univers/police-municipale`). Cependant, dès que l'on navigue dans les sous-catégories (ex: Uniformes, Hauts) depuis le menu, le site utilise un système de filtres d'URL.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 _Figure 5 : URL filtrée pour la catégorie Uniformes._
 

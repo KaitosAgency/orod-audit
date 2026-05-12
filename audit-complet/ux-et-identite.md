@@ -47,7 +47,7 @@ _Figure 2 : Test d'affichage avec logo centré pour une meilleure reconnaissance
 
 {% columns %}
 {% column %}
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}

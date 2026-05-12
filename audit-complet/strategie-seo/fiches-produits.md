@@ -38,7 +38,7 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 
 {% stepper %}
 {% step %}
-#### Le Haut de Page (Above the Fold) - Zone d'achat immédiate
+**Le Haut de Page (Above the Fold) - Zone d'achat immédiate**
 
 * **Fil d'Ariane (Breadcrumb) :** À conserver tout en haut (très bon pour le SEO et la navigation).
 * **Colonne Gauche (Galerie Médias) :**
@@ -59,14 +59,14 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 {% endstep %}
 
 {% step %}
-#### Le Milieu de Page - Réassurance & Navigation interne
+**Le Milieu de Page - Réassurance & Navigation interne**
 
 * **Bandeau de réassurance :** Juste sous la ligne de flottaison (sous les colonnes images/achat), insérer un bandeau horizontal (splité en 3 ou 4 colonnes) avec des icônes : Expédition rapide, Livraison sécurisée, Programme de fidélité, X clients satisfaits.
-* **Menu d'ancres (Navigation interne) :** Un menu horizontal collant (sticky) avec 4 liens : _Description | Avis clients | Caractéristiques | Détails de livraison_. Ces liens ne doivent pas ouvrir de nouveaux onglets, mais faire défiler (scroller) la page fluidement vers la section correspondante plus bas.
+* **Menu d'ancres (Navigation interne) :** Un menu horizontal avec 4 liens : _Description | Avis clients | Caractéristiques | Détails de livraison_. Ces liens ne doivent pas ouvrir de nouveaux onglets, mais faire défiler (scroller) la page fluidement vers la section correspondante plus bas.
 {% endstep %}
 
 {% step %}
-#### Le Bas de Page - Contenu détaillé (SEO & Information)
+**Le Bas de Page - Contenu détaillé (SEO & Information)**
 
 * **Bloc Description (SEO) :** Un texte riche de 300 à 500 mots. Commencer par un H2. Pour ne pas casser le design, n'afficher que les 3 premières lignes, suivies d'un bouton "En savoir plus" pour dérouler la suite du texte.
 * **Bloc Avis Clients :** Affichage détaillé des commentaires.
@@ -80,7 +80,7 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 {% endstep %}
 
 {% step %}
-#### L'Élément "Sticky" (Boost de Conversion)
+**L'Élément "Sticky" (Boost de Conversion)**
 
 * **Résumé du panier flottant :** Lorsqu'on scrolle vers le bas (à partir de 20% de la page) et que le bouton principal d'ajout au panier disparaît de l'écran, faire apparaître une barre collante en bas de l'écran (Sticky Bottom) contenant le nom du produit, le prix et un bouton "Ajouter au panier". C'est redoutable pour l'UX mobile.
 {% endstep %}
