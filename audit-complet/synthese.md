@@ -48,4 +48,3 @@ Déployer cette stratégie manuellement prendrait des années et un budget colos
 
 Cette technologie permet à mon agent IA d'interagir de manière autonome et sécurisée avec votre catalogue pour rédiger des centaines de textes SEO, optimiser les métadonnées, générer les pages pSEO et piloter l'animation commerciale. C'est la garantie d'une exécution rapide, exhaustive et à fort ROI.
 
-👉 **Prêt à démarrer ?** Découvrez les actions immédiates sur la page [Quick Wins](quick-wins.md).
