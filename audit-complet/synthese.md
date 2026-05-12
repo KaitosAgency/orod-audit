@@ -15,7 +15,7 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 
 ## Le Plan de Transformation (Vision 12 mois)
 
-*Mon approche dissocie clairement trois types de travail : le **Setup** (lourd, ponctuel : templates de rédaction, prompts IA, configurations MCP), la **Production** (récurrente, automatisée par mon agent IA via le MCP) et la **Relecture humaine** (le goulot d'étranglement réel du projet, à dimensionner avec soin). Une fois les templates et prompts validés en début de phase, la génération de centaines de textes devient une opération industrielle qui ne demande plus qu'une relecture qualité.*
+*Mon approche dissocie clairement trois types de travail : le **Setup** (lourd, ponctuel : templates de rédaction, prompts IA, configurations MCP), la **Production** (récurrente, automatisée par mon agent IA via le MCP) et la **Relecture**. Pour éviter que la relecture ne devienne un goulot d'étranglement insurmontable, nous mettrons en place un modèle hybride : une relecture humaine concentrée sur le Top 20% stratégique (Catégories et Best-Sellers), et une relecture automatisée par un second "Agent IA Reviewer" pour la longue traîne, avec intervention humaine uniquement sur alerte.*
 
 ### Mois 1 : Fondations, Quick Wins & Setup IA (~10 à 15 jours homme)
 - **Setup** : Installation MCP sur pré-prod, déblocage des accès, configuration des permissions, validation environnement (5 jours).
@@ -24,10 +24,10 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 - **Corrections techniques** : robots.txt, canonical pagination, Open Graph (2 jours, à coupler avec les équipes techniques).
 - **Jalon** : Indexation débloquée, métadonnées optimisées sur tout le site, infrastructure IA opérationnelle.
 
-### Mois 2 à 4 : L'Usine à Contenu (~40 à 50 jours homme sur 3 mois)
-- **Setup (Mois 2, ~10 à 15 jours)** : Le plus long du chantier. Création des templates de rédaction (catégories, produits, articles), prompts IA optimisés, déploiement CMS Headless, calibrage du ton de voix.
+### Mois 2 à 4 : L'Usine à Contenu (~20 à 25 jours homme sur 3 mois)
+- **Setup (Mois 2, ~10 à 15 jours)** : Le plus long du chantier. Création des templates de rédaction (catégories, produits, articles), prompts IA optimisés, configuration de l'Agent Reviewer, déploiement CMS Headless, calibrage du ton de voix.
 - **Production (Mois 2-4, marginale en temps homme)** : Génération automatisée par le MCP des 115 textes catégories (1500-3000 mots), des descriptions des 1200 produits, et de ~90 articles de blog. La machine tourne en continu.
-- **Relecture (Mois 2-4, ~25 à 30 jours répartis)** : Le vrai goulot. Environ 50 contenus/jour relus par une personne, soit ~28 jours pour relire l'ensemble du catalogue + le rythme blog.
+- **Relecture Hybride (Mois 2-4, ~7 à 10 jours répartis)** : L'humain se concentre uniquement sur les 115 catégories et le Top 20% des produits (Best-sellers). Les ~1000 produits restants sont validés par l'Agent IA Reviewer (vérification des normes, ton, longueur) avec intervention humaine uniquement sur alerte.
 - **Jalon** : 115 catégories enrichies, 1200 fiches optimisées, ~90 articles de blog publiés.
 
 ### Mois 5-7 : Acquisition Massive (pSEO) (~20 à 30 jours homme sur 3 mois)
