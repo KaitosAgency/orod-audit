@@ -19,7 +19,6 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
   * Installation et tests du serveur MCP sur l'environnement de pré-production (déblocage des accès, configuration des permissions).
   * Correction des anomalies bloquantes (robots.txt, pagination).
   * Optimisation de toutes les métadonnées (Title, Meta Description).
-  * Collaboration main dans la main avec les équipes techniques pour améliorer l'UX du site (en s'adaptant à leur calendrier).
   * *Objectif : Sécuriser l'infrastructure IA, débloquer l'indexation et augmenter le taux de conversion immédiat.*
 * **Mois 2 à 4 : L'Usine à Contenu (E-commerce & Blog)**
   * Création et rédaction des 115 nouvelles pages catégories et optimisation des ~1200 fiches produits (processus itératif : génération IA + relecture humaine).
@@ -33,6 +32,8 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
   * Campagnes de relations presse et partenariats éditoriaux (Netlinking / Backlinks).
   * Optimisation continue pour les IA (GEO).
   * *Objectif : Devenir le leader incontesté sur les moteurs de recherche et écraser la concurrence.*
+
+> 💡 **Fil Rouge (Mois 2 à 7) :** Collaboration continue avec les équipes techniques pour la refonte UX du site (~15 jours de développement), planifiée selon leur disponibilité pour maximiser la conversion avant le pic de trafic.
 
 ## Les 4 Piliers Stratégiques
 
