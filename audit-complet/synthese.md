@@ -24,14 +24,14 @@ L'objectif de cet audit n'est pas seulement de corriger ces erreurs, mais de tra
 #### L'Usine à Contenu (On-Site & Blog)
 
 * Remplacement des filtres actuels par de véritables "Silos" SEO (115 pages catégories optimisées).
-* Mise en place d'un rythme de publication agressif sur le blog (1 article/jour) via un CMS Headless dédié pour saturer l'espace sémantique et asseoir l'autorité de la marque.
+* Mise en place d'un rythme de publication soutenu sur le blog (**jusqu'à 1 article/jour en phase de lancement**, puis **3 à 4 articles/semaine en croisière** si besoin) via un CMS Headless dédié pour saturer l'espace sémantique et asseoir l'autorité de la marque — voir [Stratégie Éditoriale & Blog](strategie-editoriale-et-blog.md).
 {% endstep %}
 
 {% step %}
 #### Acquisition Massive : Le SEO Programmatique (pSEO)
 
 * Développement d'un micro-service sur-mesure pour générer des dizaines de milliers de pages d'atterrissage hyper-ciblées (ex: "Fournisseur Police Municipale \[Ville]" ou par "Norme ISO").
-* Déploiement sécurisé en "Drip-feeding" (150 pages/jour) couplé à un "Hack" d'autorité locale (Google Maps) pour écraser la concurrence locale sans risquer de pénalité.
+* Déploiement sécurisé en **"Test & Scale"** (lots pilotes puis montée en charge par grappes), couplé à un "Hack" d'autorité locale (Google Maps) pour écraser la concurrence locale sans risquer de pénalité — voir la section [SEO Programmatique](seo-programmatique-pseo.md) pour le détail de la méthode.
 {% endstep %}
 
 {% step %}
