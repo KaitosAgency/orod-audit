@@ -13,34 +13,44 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 - **Potentiel de +15% à +25% de CA** généré via l'e-mailing B2B automatisé.
 - **Potentiel de doubler voire tripler le trafic organique** d'ici un an grâce à ces techniques d'acquisition massive.
 
-## Le Plan de Transformation (Vision 12 mois)
+## Le Plan de Transformation (Vision 18 mois)
 
 *Mon approche dissocie clairement trois types de travail : le **Setup** (lourd, ponctuel : templates de rédaction, prompts IA, configurations MCP), la **Production** (récurrente, automatisée par mon agent IA via le MCP) et la **Relecture**. Pour éviter que la relecture ne devienne un goulot d'étranglement insurmontable, nous mettrons en place un modèle hybride : une relecture humaine concentrée sur le Top 20% stratégique (Catégories et Best-Sellers), et une relecture automatisée par un second "Agent IA Reviewer" pour la longue traîne, avec intervention humaine uniquement sur alerte.*
 
-### Mois 1 : Fondations, Quick Wins & Setup IA (~15 à 20 jours homme)
+### Phase 1 : Le "Build" (Mois 1 à 12)
+
+**Mois 1 : Fondations, Quick Wins & Setup IA (~15 à 20 jours homme)**
 - **Setup** : Installation MCP sur pré-prod, déblocage des accès, configuration des permissions, validation environnement (7 à 8 jours).
 - **Production** : Génération automatisée des métadonnées (Title, Meta Description) sur les ~115 catégories et ~1200 fiches produits (1 à 2 jours homme + traitement IA).
 - **Relecture** : Validation des métadonnées générées (3 à 5 jours).
 - **Corrections techniques** : robots.txt, canonical pagination, Open Graph (3 à 5 jours, à coupler avec les équipes techniques).
 - **Jalon** : Indexation débloquée, métadonnées optimisées sur tout le site, infrastructure IA opérationnelle.
 
-### Mois 2 à 4 : L'Usine à Contenu (~30 à 40 jours homme sur 3 mois)
+**Mois 2 à 4 : L'Usine à Contenu (~30 à 40 jours homme sur 3 mois)**
 - **Setup (Mois 2, ~15 à 20 jours)** : Le plus long du chantier. Création des templates de rédaction (catégories, produits, articles), prompts IA optimisés, configuration de l'Agent Reviewer, déploiement CMS Headless, calibrage du ton de voix.
 - **Production (Mois 2-4, marginale en temps homme)** : Génération automatisée par le MCP des 115 textes catégories (1500-3000 mots), des descriptions des 1200 produits, et de ~90 articles de blog. La machine tourne en continu.
 - **Relecture Hybride (Mois 2-4, ~10 à 15 jours répartis)** : L'humain se concentre uniquement sur les 115 catégories et le Top 20% des produits (Best-sellers). Les ~1000 produits restants sont validés par l'Agent IA Reviewer (vérification des normes, ton, longueur) avec intervention humaine uniquement sur alerte.
 - **Jalon** : 115 catégories enrichies, 1200 fiches optimisées, ~90 articles de blog publiés.
 
-### Mois 5-7 : Acquisition Massive (pSEO) (~30 à 40 jours homme sur 3 mois)
+**Mois 5-7 : Acquisition Massive (pSEO) (~30 à 40 jours homme sur 3 mois)**
 - **Setup (Mois 5, ~15 à 20 jours)** : Développement du micro-service pSEO, mise au point des matrices (Métier × Produit × Usage × Saison), création des gabarits Hubs et Villes.
 - **Production (Mois 5-7)** : Génération automatisée par lots de 500 à 1000 pages (Test & Scale).
 - **Relecture (Mois 5-7, ~10 à 15 jours)** : Échantillonnage qualité par lot (1 page sur 50) avant publication massive.
 - **Jalon** : Plusieurs milliers de pages locales indexées, premières conversions sur la longue traîne.
 
-### Mois 8-12 : Autorité, Synergie & Consolidation (~35 à 50 jours homme sur 5 mois)
+**Mois 8-12 : Autorité, Synergie & Consolidation (~35 à 50 jours homme sur 5 mois)**
 - **Setup (Mois 8, ~10 à 15 jours)** : Lancement campagnes Google Ads (Performance Max, Conquête), briefs et ciblage des partenaires presse, calibration GEO.
 - **Production (Mois 8-12)** : Gestion continue des campagnes, suivi des positions, animation éditoriale (3-4 articles/semaine).
 - **Relecture & Pilotage (récurrent)** : Reporting mensuel, ajustements stratégiques, validation des contenus presse.
 - **Jalon** : DR en hausse significative, pic de trafic organique, plusieurs citations dans les IA génératives.
+
+### Phase 2 : Le "Run & Scale" (Mois 13 à 18)
+
+**Mois 13-18 : Optimisation Continue & Déploiement de nouvelles matrices (~20 à 30 jours homme sur 6 mois)**
+- **Setup** : Création de nouvelles matrices pSEO (ex: par Normes ISO, par Marchés Publics) basées sur les données de conversion des 12 premiers mois.
+- **Production** : Maintien du rythme éditorial (blog), mise à jour des fiches produits obsolètes, génération de nouvelles landing pages.
+- **Pilotage (récurrent)** : A/B testing sur les pages catégories, optimisation du taux de conversion (CRO) post-refonte UX, ajustement fin des budgets SEA.
+- **Jalon** : Domination totale et pérenne de la SERP, ROI maximisé sur l'ensemble des canaux d'acquisition.
 
 > 💡 **Fil Rouge (Mois 2 à 7) :** Refonte UX du site (~20 à 25 jours de développement) pour maximiser la conversion avant le pic de trafic. Je suis en capacité de réaliser ces intégrations moi-même si les accès adéquats me sont fournis (éditeur de thème, gestion des fichiers en thème enfant, ou toute autre solution custom non invasive sur le code source), ou de collaborer avec vos équipes selon leur disponibilité.
 
