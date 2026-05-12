@@ -9,9 +9,10 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 
 **L'opportunité chiffrée :**
 - **115 nouvelles portes d'entrée Google** grâce à la création de véritables pages catégories riches en contenu (silos SEO).
-- **Domination totale de la SERP (pSEO)** avec des dizaines de milliers de pages ciblées (ex: ~10 000 communes pour la Police Municipale, mais déclinable sur tous les métiers, normes et usages).
+- **Prise de parts de visibilité progressive (pSEO)** sur les requêtes métiers stratégiques avec des dizaines de milliers de pages ciblées (ex: ~10 000 communes pour la Police Municipale, mais déclinable sur tous les métiers, normes et usages).
 - **Potentiel de +15% à +25% de CA** généré via l'e-mailing B2B automatisé.
-- **Potentiel de doubler voire tripler le trafic organique** d'ici un an grâce à ces techniques d'acquisition massive.
+- **Croissance significative du trafic organique :** Une augmentation visible du trafic est prévue dès le 6ème mois, pour atteindre un volume pérenne d'ici un an.
+- **Position de leader inébranlable :** Si ce plan de transformation est suivi jusqu'au bout, OROD deviendra un pilier incontournable du marché. La barrière à l'entrée créée sera telle qu'il sera très difficile pour les concurrents de vous déloger.
 
 ## Le Plan de Transformation (Vision 18 mois)
 
@@ -50,7 +51,7 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 - **Setup** : Création de nouvelles matrices pSEO (ex: par Normes ISO, par Marchés Publics) basées sur les données de conversion des 12 premiers mois.
 - **Production** : Maintien du rythme éditorial (blog), mise à jour des fiches produits obsolètes, génération de nouvelles landing pages.
 - **Pilotage (récurrent)** : A/B testing sur les pages catégories, optimisation du taux de conversion (CRO) post-refonte UX, ajustement fin des budgets SEA.
-- **Jalon** : Domination totale et pérenne de la SERP, ROI maximisé sur l'ensemble des canaux d'acquisition.
+- **Jalon** : Présence exhaustive et pérenne sur les moteurs de recherche, ROI maximisé sur l'ensemble des canaux d'acquisition.
 
 > 💡 **Fil Rouge (Mois 2 à 7) :** Refonte UX du site (~20 à 25 jours de développement) pour maximiser la conversion avant le pic de trafic. Je suis en capacité de réaliser ces intégrations moi-même si les accès adéquats me sont fournis (éditeur de thème, gestion des fichiers en thème enfant, ou toute autre solution custom non invasive sur le code source), ou de collaborer avec vos équipes selon leur disponibilité.
 
@@ -58,7 +59,7 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 
 1. **Fondations Techniques & Conversion (CRO) :** Rendre le site parfaitement lisible pour Google, travailler l'UX avec les équipes techniques, et maximiser la confiance des acheteurs institutionnels (E-E-A-T, Chorus Pro, JSON-LD).
 2. **L'Usine à Contenu (On-Site & Blog) :** Remplir les pages catégories vides pour en faire des silos sémantiques et créer un blog puissant pour capter le trafic d'intention.
-3. **Acquisition Massive (SEO Programmatique) :** Générer automatiquement des milliers de pages d'atterrissage ultra-ciblées pour une domination totale des résultats de recherche.
+3. **Acquisition Massive (SEO Programmatique) :** Générer automatiquement des milliers de pages d'atterrissage ultra-ciblées pour une couverture exhaustive des intentions de recherche.
 4. **Autorité & Synergie (Off-Site & SEA) :** Booster la puissance du domaine via des backlinks de qualité et utiliser Google Ads comme accélérateur une fois les fondations posées.
 
 ## L'Avantage Concurrentiel : L'Automatisation par l'IA (MCP)
@@ -66,4 +67,6 @@ description: "Vision stratégique et plan d'action business pour transformer ORO
 Déployer cette stratégie manuellement prendrait des années et un budget colossal. Mon approche repose sur l'ingénierie : l'installation d'un serveur **MCP (Model Context Protocol)** directement sur votre ERP Odoo. 
 
 Cette technologie permet à mon agent IA d'interagir de manière autonome et sécurisée avec votre catalogue pour rédiger des centaines de textes SEO, optimiser les métadonnées, générer les pages pSEO et piloter l'animation commerciale. C'est la garantie d'une exécution rapide, exhaustive et à fort ROI.
+
+👉 **Prochaine étape :** Découvrez les actions immédiates sur la page [Quick Wins](quick-wins.md), ou consultez la [Proposition d'Accompagnement (Budget & ROI)](proposition-commerciale.md) détaillée.
 

@@ -1,6 +1,6 @@
 ---
 title: 'SEO Programmatique (pSEO) : Conquête Locale Longue Traîne'
-description: "Déploiement automatisé de milliers de pages ultra-ciblées (villes, métiers, normes) pour dominer la longue traîne."
+description: "Déploiement automatisé de milliers de pages ultra-ciblées (villes, métiers, normes) pour capter la longue traîne."
 ---
 
 # SEO Programmatique (pSEO) : Conquête Locale Longue Traîne

@@ -66,7 +66,7 @@ _Figure 6 : URL filtrée pour la sous-catégorie Hauts._
 **Constat :** La page ne contient qu'une seule phrase descriptive (_"Équipements complets pour la police municipale : uniformes, gilets pare-balles, accessoires et matériel conforme aux normes en vigueur."_). C'est beaucoup trop "maigre" (Thin Content) pour que Google considère cette page comme une référence. De plus, l'utilisateur fait face à 187 produits mélangés sans accompagnement éditorial ni réassurance.
 
 **Recommandation : Le Gabarit Idéal d'une Page Catégorie (SEO & CRO)**\
-Pour transformer cette page "Univers" en une véritable machine à trafic et à conversion, voici la structure idéale à implémenter de haut en bas :
+Pour transformer cette page "Univers" en un véritable levier d'acquisition automatisé, voici la structure idéale à implémenter de haut en bas :
 
 {% stepper %}
 {% step %}

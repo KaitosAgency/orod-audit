@@ -79,4 +79,4 @@ Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'archi
 * **Risque :** Nul
 * 👉 [Voir UX et Identité](ux-et-identite.md)
 
-> 💡 **Estimation globale :** À l'exception de la création de contenu (qui s'étalera sur 3 mois), toutes ces actions techniques peuvent être exécutées en 1 à 2 mois, posant des bases saines avant d'entamer les chantiers plus lourds (pSEO, refonte des silos).
+> 💡 **Estimation globale :** À l'exception de la création de contenu (qui s'étalera sur 3 mois), toutes ces actions techniques peuvent être exécutées en 1 à 2 mois, posant des bases saines avant d'entamer les chantiers plus lourds (pSEO, refonte des silos). **Ces actions rapides amorcent la pompe SEO : une augmentation visible du trafic est prévue dès le 6ème mois. À terme, l'exécution complète de ce plan fera d'OROD un pilier du marché, créant une barrière à l'entrée qu'il sera très difficile pour vos concurrents de franchir pour vous déloger.**
