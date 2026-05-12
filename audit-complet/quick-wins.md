@@ -7,18 +7,69 @@ description: "Les actions immédiates à fort impact et faible effort pour gén�
 
 Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'architecture profonde du site, et qui peut déjà modifier positivement la trajectoire du trafic et des conversions.
 
-## Tableau de Priorisation
+## Actions Prioritaires
 
-| Action | Effort | Impact | Délai | Risque | Détails |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Correction de la balise canonical de pagination (`?page=X`)** | Faible | Élevé | Immédiat | Nul | [Voir les détails](strategie-seo/pages-univers-categories.md) |
-| **Création du fichier `robots.txt`** | Faible | Élevé | Immédiat | Nul | [Voir les détails](anomalies-techniques.md) |
-| **Optimisation Title + Meta Description page d'accueil** | Faible | Élevé | Immédiat | Nul | [Voir les détails](strategie-seo/page-accueil.md) |
-| **Optimisation Title + Meta des pages catégories** | Moyen | Moyen | 1 sem | Nul | [Voir les détails](strategie-seo/pages-univers-categories.md) |
-| **Passage de `og:type=website` à `og:type=product` sur fiches produits** | Faible | Moyen | Immédiat | Nul | [Voir les détails](strategie-seo/fiches-produits.md) |
-| **Création de contenu sur les fiches produits et pages catégories** | Moyen | Élevé | 2 à 4 sem | Nul | [Voir les détails](strategie-seo/pages-univers-categories.md) |
-| **Lancement campagne one-shot d'avis clients + ajout `AggregateRating` JSON-LD** | Moyen | Élevé | 2 sem | Nul | [Voir E-mailing](fidelisation-emailing.md) / [Fiches Produits](strategie-seo/fiches-produits.md) |
-| **Création du fichier `llms.txt`** | Faible | Moyen | Immédiat | Nul | [Voir les détails](geo.md) |
-| **Correction Open Graph (images partage) accueil + catégories** | Faible | Faible | Immédiat | Nul | [Voir les détails](ux-et-identite.md) |
+### 1. Correction de la balise canonical de pagination (`?page=X`)
+* **Effort :** Faible
+* **Impact :** Élevé
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir les détails techniques](strategie-seo/pages-univers-categories.md)
+
+### 2. Création du fichier `robots.txt`
+* **Effort :** Faible
+* **Impact :** Élevé
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir les détails techniques](anomalies-techniques.md)
+
+### 3. Optimisation Title + Meta Description page d'accueil
+* **Effort :** Faible
+* **Impact :** Élevé
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir la stratégie d'accueil](strategie-seo/page-accueil.md)
+
+### 4. Optimisation Title + Meta des pages catégories
+* **Effort :** Moyen
+* **Impact :** Moyen
+* **Délai :** 1 semaine
+* **Risque :** Nul
+* 👉 [Voir la stratégie catégories](strategie-seo/pages-univers-categories.md)
+
+### 5. Passage de `og:type=website` à `og:type=product` sur fiches produits
+* **Effort :** Faible
+* **Impact :** Moyen
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir l'optimisation des fiches produits](strategie-seo/fiches-produits.md)
+
+### 6. Création de contenu sur les fiches produits et pages catégories
+* **Effort :** Moyen
+* **Impact :** Élevé
+* **Délai :** 2 à 4 semaines
+* **Risque :** Nul
+* 👉 [Voir la stratégie de contenu](strategie-seo/pages-univers-categories.md)
+
+### 7. Lancement campagne one-shot d'avis clients + ajout `AggregateRating` JSON-LD
+* **Effort :** Moyen
+* **Impact :** Élevé
+* **Délai :** 2 semaines
+* **Risque :** Nul
+* 👉 [Voir E-mailing](fidelisation-emailing.md) / [Fiches Produits](strategie-seo/fiches-produits.md)
+
+### 8. Création du fichier `llms.txt` (Préparation IA)
+* **Effort :** Faible
+* **Impact :** Moyen
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir la stratégie GEO](geo.md)
+
+### 9. Correction Open Graph (images partage) accueil + catégories
+* **Effort :** Faible
+* **Impact :** Faible
+* **Délai :** Immédiat
+* **Risque :** Nul
+* 👉 [Voir UX et Identité](ux-et-identite.md)
 
 > 💡 **Estimation globale :** Toutes ces actions peuvent être exécutées en 2 à 4 semaines, posant des bases saines avant d'entamer les chantiers plus lourds (pSEO, refonte des silos).
