@@ -1,6 +1,8 @@
 ---
 title: Fidélisation & E-mailing (Marketing Automation)
-description: "Mise en place de scénarios de marketing automation pour maximiser la rétention et la valeur à vie (LTV) des clients."
+description: >-
+  Mise en place de scénarios de marketing automation pour maximiser la rétention
+  et la valeur à vie (LTV) des clients.
 ---
 
 # Fidélisation & E-mailing (Marketing Automation)
@@ -15,7 +17,7 @@ description: "Mise en place de scénarios de marketing automation pour maximiser
 * **Calendrier Marketing & Batching (Le Copywriting IA) :** Comme évoqué pour la page d'accueil (Hero Banner), la création des campagnes d'e-mailing promotionnelles (Soldes, Black Friday, Rentrée) doit être intégrée à une **session de travail en "Batching"**. Concevoir les e-mails en même temps que les bannières du site garantit une cohérence visuelle parfaite et permet de programmer toute l'année d'animation commerciale en une seule fois.
   * _💡 Ma valeur ajoutée (MCP) :_ La gestion de contenu par MCP ne se limite pas au SEO. Klaviyo propose officiellement son propre serveur MCP (Model Context Protocol).\
     Lors du batching, l'IA se connectera directement à votre compte Klaviyo pour générer les objets d'e-mails (A/B testing), les "preheaders" et le copywriting persuasif de toutes vos campagnes annuelles. Elle pourra même créer les campagnes, assigner les templates et gérer les traductions automatiquement via l'API Klaviyo.
-* **Relance de paniers abandonnés :** S'assurer qu'un scénario automatique est en place pour relancer par e-mail les utilisateurs connectés ayant laissé des articles dans leur panier (J+1, J+3). C'est un levier de conversion majeur en e-commerce.
+* **Relance de paniers abandonnés :** S'assurer qu'un scénario automatique est en place pour relancer par e-mail les utilisateurs connectés ayant laissé des articles dans leur panier (J+1 et J+3). C'est un levier de conversion majeur en e-commerce.
 * **Séquence de bienvenue (Onboarding) :** Lors de l'inscription à la newsletter ou de la création d'un compte, envoyer une série de 2 ou 3 e-mails présentant l'expertise d'OROD, les engagements qualité et les univers phares.
 
 ## Récolte des Avis Clients (Social Proof)
