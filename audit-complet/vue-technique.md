@@ -21,7 +21,7 @@ L'objectif est d'évoluer vers une architecture composable et automatisée :
 - [ ] Configurer le `robots.txt` : `Disallow` sur les facettes (`univers`, `taille`, `couleur`, `prix`), `/account`, `/cart`, `/checkout`, `/api/`. Déclarer le `Sitemap` officiel.
 - [ ] Corriger la balise `<link rel="canonical">` sur les pages paginées (`?page=X` pointe actuellement vers la page 1).
 - [ ] Implémenter une pagination "Degraded Gracefully" (liens HTML standards en plus du chargement JS).
-- [ ] *Détails : [Anomalies Techniques Critiques](anomalies-techniques.md)*
+- [ ] *Détails : [Anomalies Techniques Critiques](anomalies-techniques.md) / [Pages Univers & Catégories](strategie-seo/pages-univers-categories.md)*
 
 ### Sémantique, Balisage & URLs (Priorité Moyenne)
 - [ ] **Sémantique HTML** : Utiliser la balise `<nav>` pour le menu principal.
@@ -34,11 +34,13 @@ L'objectif est d'évoluer vers une architecture composable et automatisée :
 - [ ] **Navigation & Grilles** : `SiteNavigationElement` (menu), `ItemList` (généré directement dans le composant grille produit/blog).
 - [ ] **Contenu & Marque** : `Article`/`BlogPosting`, `Person` (auteurs), `VideoObject`, `FAQPage` (via `<details>/<summary>`).
 - [ ] **Institutionnel** : `Organization`/`AboutPage`, `ContactPage`, `Service`.
+- [ ] *Détails : [Fiches produits](strategie-seo/fiches-produits.md) / [Pages Univers & Catégories](strategie-seo/pages-univers-categories.md) / [Éléments Transverses](strategie-seo/elements-transverses.md)*
 
 ### Performance & Accessibilité (Core Web Vitals)
 - [ ] **Optimisation Images** : WebP, `srcset`, `loading="lazy"`.
 - [ ] **CLS (Cumulative Layout Shift)** : Fixer les ratios d'images en utilisant la propriété CSS `aspect-ratio` ou les attributs `width`/`height`.
 - [ ] **Accessibilité WAI-ARIA** : Viser le niveau AA (le AAA étant trop coûteux à maintenir) en ajoutant les rôles et attributs `aria-*` sur les menus, modales et facettes.
+- [ ] *Détails : [Fiches produits](strategie-seo/fiches-produits.md) / [Pages Univers & Catégories](strategie-seo/pages-univers-categories.md)*
 
 ### Architecture & Automatisation (Priorité Long Terme)
 - [ ] Mettre en place le CMS Headless pour la gestion du blog et le micro-service pour les pages pSEO.
