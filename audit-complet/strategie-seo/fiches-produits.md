@@ -62,7 +62,7 @@ Pour maximiser les conversions et l'expérience utilisateur, voici la structure 
 {% step %}
 **Le Milieu de Page - Réassurance & Navigation interne**
 
-* **Bandeau de réassurance :** Juste sous la ligne de flottaison (sous les colonnes images/achat), insérer un bandeau horizontal (splité en 3 ou 4 colonnes) avec des icônes : Expédition rapide, Livraison sécurisée, Programme de fidélité, X clients satisfaits.
+* **Bandeau de réassurance :** Juste sous la ligne de flottaison (sous les colonnes images/achat), insérer un bandeau horizontal (splité en 3 ou 4 colonnes) avec des icônes : Expédition rapide, Livraison sécurisée, Acceptation **Chorus Pro** (très important pour les mairies), Programme de fidélité, X clients satisfaits.
 * **Menu d'ancres (Navigation interne) :** Un menu horizontal avec 4 liens : _Description | Avis clients | Caractéristiques | Détails de livraison_. Ces liens ne doivent pas ouvrir de nouveaux onglets, mais faire défiler (scroller) la page fluidement vers la section correspondante plus bas.
 {% endstep %}
 

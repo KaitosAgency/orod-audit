@@ -129,7 +129,7 @@ Pour transformer cette page "Univers" en une véritable machine à trafic et à 
 {% step %}
 **Bandeau de Réassurance**
 
-* Juste avant le footer, rappeler les éléments de confiance : Livraison, Paiement sécurisé (Chorus Pro), Service client.
+* Juste avant le footer, rappeler les éléments de confiance : Livraison, Paiement sécurisé (avec mention explicite et logo de **Chorus Pro**, indispensable pour la cible B2G), Service client.
 {% endstep %}
 
 {% step %}

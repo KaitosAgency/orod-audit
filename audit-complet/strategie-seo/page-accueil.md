@@ -77,6 +77,7 @@ La page d'accueil est très visuelle mais manque de texte descriptif pour Google
 * **Logos Partenaires :** Ajouter un bandeau de logos des institutions ou collectivités qui font déjà confiance à OROD.
 * **Avis Clients :** Intégrer un module d'avis (ex: Avis Vérifiés) pour rassurer sur la qualité des produits et du service.
 * **Chiffres clés :** Mettre en avant des données rassurantes (ex: "Plus de 200 points de contact", "Livraison rapide").
+* **Paiement Chorus Pro :** Mettre en avant de manière très visible (sous forme de logo ou de badge dans un bandeau de réassurance) l'acceptation du paiement via Chorus Pro. C'est un argument décisionnel majeur pour les administrations publiques.
 * **Bloc "À votre écoute" :** Intégrer un bloc très visible avec les coordonnées de contact (téléphone, e-mail, horaires) pour humaniser la relation commerciale, particulièrement importante en B2B / institutionnel.
 
 ### Capture de Leads (Pop-up & Widget)
