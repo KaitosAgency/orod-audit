@@ -30,42 +30,49 @@ Voici ce que l'on peut lancer dès la semaine prochaine, sans toucher à l'archi
 * **Risque :** Nul
 * 👉 [Voir la stratégie d'accueil](strategie-seo/page-accueil.md)
 
-### 4. Optimisation Title + Meta des pages catégories
+### 4. Optimisation Title + Meta des pages catégories et fiches produits
 * **Effort :** Moyen
-* **Impact :** Moyen
-* **Délai :** 1 semaine
+* **Impact :** Élevé
+* **Délai :** 1 à 2 semaines
 * **Risque :** Nul
+* 👉 [Voir la stratégie catégories](strategie-seo/pages-univers-categories.md) / [Fiches produits](strategie-seo/fiches-produits.md)
+
+### 5. Création de l'arborescence des 115 catégories (sans contenu) et réattribution des produits
+* **Effort :** Moyen
+* **Impact :** Élevé
+* **Délai :** 1 à 2 semaines
+* **Risque :** Faible (nécessite des redirections 301 si les URLs changent)
 * 👉 [Voir la stratégie catégories](strategie-seo/pages-univers-categories.md)
 
-### 5. Passage de `og:type=website` à `og:type=product` sur fiches produits
+### 6. Passage de `og:type=website` à `og:type=product` sur fiches produits
 * **Effort :** Faible
 * **Impact :** Moyen
 * **Délai :** Immédiat
 * **Risque :** Nul
 * 👉 [Voir l'optimisation des fiches produits](strategie-seo/fiches-produits.md)
 
-### 6. Création de contenu sur les fiches produits et pages catégories
+### 7. Création de contenu sur les fiches produits et pages catégories
 * **Effort :** Élevé
 * **Impact :** Très Élevé
 * **Délai :** 3 mois (processus itératif)
 * **Risque :** Nul
 * 👉 [Voir la stratégie de contenu](strategie-seo/pages-univers-categories.md)
 
-### 7. Lancement campagne one-shot d'avis clients + ajout `AggregateRating` JSON-LD
+### 8. Lancement campagne one-shot d'avis clients + ajout `AggregateRating` JSON-LD
 * **Effort :** Moyen
 * **Impact :** Élevé
 * **Délai :** 2 semaines
 * **Risque :** Nul
 * 👉 [Voir E-mailing](fidelisation-emailing.md) / [Fiches Produits](strategie-seo/fiches-produits.md)
 
-### 8. Création du fichier `llms.txt` (Préparation IA)
+### 9. Création du fichier `llms.txt` (Préparation IA)
 * **Effort :** Faible
 * **Impact :** Moyen
 * **Délai :** Immédiat
 * **Risque :** Nul
 * 👉 [Voir la stratégie GEO](geo.md)
 
-### 9. Correction Open Graph (images partage) accueil + catégories
+### 10. Correction Open Graph (images partage) accueil + catégories
 * **Effort :** Faible
 * **Impact :** Faible
 * **Délai :** Immédiat
