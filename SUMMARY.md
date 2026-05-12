@@ -4,7 +4,15 @@
 
 ## Audit Complet
 
-* [Synthèse](audit-complet/synthese.md)
+* [Résumé Exécutif](audit-complet/synthese.md)
+* [Quick Wins](audit-complet/quick-wins.md)
+
+### Vues thématiques
+* [Vue Stratégique](audit-complet/vue-strategique.md)
+* [Vue Technique](audit-complet/vue-technique.md)
+* [Vue Contenu](audit-complet/vue-contenu.md)
+
+### Audit détaillé
 * [Expérience Utilisateur (UX) & Identité](audit-complet/ux-et-identite.md)
 * [Anomalies Techniques Critiques](audit-complet/anomalies-techniques.md)
 * [Stratégie SEO](audit-complet/strategie-seo/index.md)
